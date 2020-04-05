@@ -1,0 +1,5249 @@
+{
+    "meta": {
+        "description": "TYPO3 extension security advisories",
+        "date": "2020-04-05T23:38:10+02:00",
+        "maintainers": [
+            {
+                "name": "Oliver Hader",
+                "email": "oliver.hader@typo3.org"
+            }
+        ]
+    },
+    "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-003",
+            "advisory": "TYPO3-EXT-SA-2020-003",
+            "title": "Multiple vulnerabilities in extension \"Magalone Flipbook for TYPO3\" (magaloneflipbook)",
+            "type": "extension",
+            "component": "magaloneflipbook",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "magaloneflipbook"
+                }
+            ],
+            "date": "2020-03-10T00:00:00+00:00",
+            "versions": [
+                "<=1.0.3"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution",
+                "Arbitrary File Upload",
+                "Path Traversal and Broken Access Control"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-002",
+            "advisory": "TYPO3-EXT-SA-2020-002",
+            "title": "Remote Code Execution in extension \"PHPUnit\" (phpunit)",
+            "type": "extension",
+            "component": "phpunit",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpunit"
+                }
+            ],
+            "date": "2020-03-10T00:00:00+00:00",
+            "versions": [
+                "<=6.5.14"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-001",
+            "advisory": "TYPO3-EXT-SA-2020-001",
+            "title": "SQL Injection in extension \"phpmyadmin\" (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2020-03-10T00:00:00+00:00",
+            "versions": [
+                "<=5.4.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [
+                "CVE-2019-18622",
+                "CVE-2020-5504"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-023",
+            "advisory": "TYPO3-EXT-SA-2019-023",
+            "title": "CSRF in extension \"femanager\" (femanager)",
+            "type": "extension",
+            "component": "femanager",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "femanager"
+                }
+            ],
+            "date": "2019-12-17T00:00:00+00:00",
+            "versions": [
+                "<=5.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Request Forgery"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-022",
+            "advisory": "TYPO3-EXT-SA-2019-022",
+            "title": "Privilege Escalation in extension \"femanager direct mail subscription\" (femanager_dmail_subscribe)",
+            "type": "extension",
+            "component": "femanager_dmail_subscribe",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "femanager_dmail_subscribe"
+                }
+            ],
+            "date": "2019-12-17T00:00:00+00:00",
+            "versions": [
+                ">=2.1.2 <=2.1.0"
+            ],
+            "vulnerabilities": [
+                "Privilege Escalation"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-021",
+            "advisory": "TYPO3-EXT-SA-2019-021",
+            "title": "Cross Site Scripting in extension \"File List\" (file_list)",
+            "type": "extension",
+            "component": "file_list",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "file_list"
+                }
+            ],
+            "date": "2019-12-17T00:00:00+00:00",
+            "versions": [
+                "<=2.3.1"
+            ],
+            "vulnerabilities": [
+                "Cross Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-020",
+            "advisory": "TYPO3-EXT-SA-2019-020",
+            "title": "CSRF in extension \"Change password for frontend users\" (fe_change_pwd)",
+            "type": "extension",
+            "component": "fe_change_pwd",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "fe_change_pwd"
+                }
+            ],
+            "date": "2019-12-17T00:00:00+00:00",
+            "versions": [
+                "<=1.4.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site-Request-Forgery"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-019",
+            "advisory": "TYPO3-EXT-SA-2019-019",
+            "title": "Multiple vulnerabilities in extension \"MKSamlAuth\" (mksamlauth)",
+            "type": "extension",
+            "component": "mksamlauth",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mksamlauth"
+                }
+            ],
+            "date": "2019-12-17T00:00:00+00:00",
+            "versions": [
+                ">=9.5.2 <=9.5.0",
+                ">=8.7.1 <=8.7.0"
+            ],
+            "vulnerabilities": [
+                "Broken Authentication",
+                "Authentication Bypass"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-018",
+            "advisory": "TYPO3-EXT-SA-2019-018",
+            "title": "Remote Code Execution in extension \"freeCap CAPTCHA\" (sr_freecap)",
+            "type": "extension",
+            "component": "sr_freecap",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sr_freecap"
+                }
+            ],
+            "date": "2019-10-15T00:00:00+00:00",
+            "versions": [
+                "<=2.4.5",
+                "<=2.5.2"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:F/RL:O/RC:X"
+                }
+            ],
+            "cve": [
+                "CVE-2019-16699"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-017",
+            "advisory": "TYPO3-EXT-SA-2019-017",
+            "title": "Multiple vulnerabilities in extension \"SLUB: Event Registration\" (slub_events)",
+            "type": "extension",
+            "component": "slub_events",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "slub_events"
+                }
+            ],
+            "date": "2019-10-15T00:00:00+00:00",
+            "versions": [
+                "<=3.0.2"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution",
+                "Unrestricted File Upload and Cross Site Scripting"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:F/RL:O/RC:X"
+                }
+            ],
+            "cve": [
+                "CVE-2019-16700"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-016",
+            "advisory": "TYPO3-EXT-SA-2019-016",
+            "title": "Information Disclosure in extension \"Direct Mail\" (direct_mail)",
+            "type": "extension",
+            "component": "direct_mail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "direct_mail"
+                }
+            ],
+            "date": "2019-10-15T00:00:00+00:00",
+            "versions": [
+                "<=5.2.2"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:O/RC:X"
+                }
+            ],
+            "cve": [
+                "CVE-2019-16698"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-015",
+            "advisory": "TYPO3-EXT-SA-2019-015",
+            "title": "SQL Injection in extension \"URL redirect\" (url_redirect)",
+            "type": "extension",
+            "component": "url_redirect",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "url_redirect"
+                }
+            ],
+            "date": "2019-10-15T00:00:00+00:00",
+            "versions": [
+                "<=1.2.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:O/RC:X"
+                }
+            ],
+            "cve": [
+                "CVE-2019-16682"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-014",
+            "advisory": "TYPO3-EXT-SA-2019-014",
+            "title": "Multiple vulnerabilities in extension \"phpMyAdmin\" (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2019-06-25T00:00:00+00:00",
+            "versions": [
+                "<=5.2.6"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2019-11768",
+                "CVE-2019-12616"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-013",
+            "advisory": "TYPO3-EXT-SA-2019-013",
+            "title": "SQL Injection in extension \"comsolit Suggest\" (comsolit_suggest)",
+            "type": "extension",
+            "component": "comsolit_suggest",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "comsolit_suggest"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=2.0.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L/E:F/RL:O/RC:X"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-012",
+            "advisory": "TYPO3-EXT-SA-2019-012",
+            "title": "Arbitrary file Upload in extension \"Yet Another Gallery\" (yag)",
+            "type": "extension",
+            "component": "yag",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "yag"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=4.2.1"
+            ],
+            "vulnerabilities": [
+                "Arbitrary File Upload"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-011",
+            "advisory": "TYPO3-EXT-SA-2019-011",
+            "title": "SQL Injection in extension \"Event Calender\" (pits_wd_calender)",
+            "type": "extension",
+            "component": "pits_wd_calender",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pits_wd_calender"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=6.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-010",
+            "advisory": "TYPO3-EXT-SA-2019-010",
+            "title": "Cross Site Scripting in extension \"Instagram\" (ws_instagram)",
+            "type": "extension",
+            "component": "ws_instagram",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ws_instagram"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=1.0.1"
+            ],
+            "vulnerabilities": [
+                "Cross Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-009",
+            "advisory": "TYPO3-EXT-SA-2019-009",
+            "title": "Cross Site Scripting in extension \"gkh RSS Import\" (gkh_rss_import)",
+            "type": "extension",
+            "component": "gkh_rss_import",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "gkh_rss_import"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=5.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-008",
+            "advisory": "TYPO3-EXT-SA-2019-008",
+            "title": "Multiple vulnerabilities in extension \"phpMyAdmin\" (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=5.2.4"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-007",
+            "advisory": "TYPO3-EXT-SA-2019-007",
+            "title": "Remote Code Execution in extension \"ImageOptimizer\" (imageoptimizer)",
+            "type": "extension",
+            "component": "imageoptimizer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "imageoptimizer"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "2.0.0",
+                "<=1.1.2"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-006",
+            "advisory": "TYPO3-EXT-SA-2019-006",
+            "title": "Open Redirect in extension \"Hairu\" (hairu)",
+            "type": "extension",
+            "component": "hairu",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "hairu"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                "<=3.0.0"
+            ],
+            "vulnerabilities": [
+                "Open Redirect"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-005",
+            "advisory": "TYPO3-EXT-SA-2019-005",
+            "title": "SQL Injection in extension \"Faceted Search\" (ke_search)",
+            "type": "extension",
+            "component": "ke_search",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ke_search"
+                }
+            ],
+            "date": "2019-05-07T00:00:00+00:00",
+            "versions": [
+                ">=3.0.0 <=3.0.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-004",
+            "advisory": "TYPO3-EXT-SA-2019-004",
+            "title": "Object Injection in extension \"mkmailer\" (mkmailer)",
+            "type": "extension",
+            "component": "mkmailer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mkmailer"
+                }
+            ],
+            "date": "2019-01-22T00:00:00+00:00",
+            "versions": [
+                "<=3.0.9"
+            ],
+            "vulnerabilities": [
+                "Object Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-003",
+            "advisory": "TYPO3-EXT-SA-2019-003",
+            "title": "Multiple vulnerabilities in extension \"femanager\" (femanager)",
+            "type": "extension",
+            "component": "femanager",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "femanager"
+                }
+            ],
+            "date": "2019-01-22T00:00:00+00:00",
+            "versions": [
+                "<=4.2.2"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-002",
+            "advisory": "TYPO3-EXT-SA-2019-002",
+            "title": "Multiple vulnerabilities in extension \"typo3_forum\" (typo3_forum)",
+            "type": "extension",
+            "component": "typo3_forum",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "typo3_forum"
+                }
+            ],
+            "date": "2019-01-22T00:00:00+00:00",
+            "versions": [
+                "<=1.1.0"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-001",
+            "advisory": "TYPO3-EXT-SA-2019-001",
+            "title": "Multiple vulnerabilities in extension \"phpMyAdmin\" (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2019-01-22T00:00:00+00:00",
+            "versions": [
+                "<=5.2.3"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-010",
+            "advisory": "TYPO3-EXT-SA-2018-010",
+            "title": "Cross-Site Scripting in extension \"libconnect\" (libconnect)",
+            "type": "extension",
+            "component": "libconnect",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "libconnect"
+                }
+            ],
+            "date": "2018-11-20T00:00:00+00:00",
+            "versions": [
+                "<=5.3.1"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-009",
+            "advisory": "TYPO3-EXT-SA-2018-009",
+            "title": "Information Disclosure in extension \"TemplaVoil\u00c3\u00a0! Plus\" (templavoilaplus)",
+            "type": "extension",
+            "component": "templavoilaplus",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "templavoilaplus"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=7.2.1"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-008",
+            "advisory": "TYPO3-EXT-SA-2018-008",
+            "title": "Cross-Site Scripting in extension \"Frontend Treeview\" (mh_treeview)",
+            "type": "extension",
+            "component": "mh_treeview",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mh_treeview"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=0.1.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-007",
+            "advisory": "TYPO3-EXT-SA-2018-007",
+            "title": "Environment Variable Injection in extension \"Amazon Web Services SDK \" (aws_sdk)",
+            "type": "extension",
+            "component": "aws_sdk",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "aws_sdk"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=3.0.4"
+            ],
+            "vulnerabilities": [
+                "Environment Variable Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [
+                "CVE-2016-5385"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-006",
+            "advisory": "TYPO3-EXT-SA-2018-006",
+            "title": "Captcha bypass in extension \"Front End User Registration\" (sr_feuser_register)",
+            "type": "extension",
+            "component": "sr_feuser_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sr_feuser_register"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=5.0.0"
+            ],
+            "vulnerabilities": [
+                "Captcha bypass"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-005",
+            "advisory": "TYPO3-EXT-SA-2018-005",
+            "title": "Environment Variable Injection in extension \"AWS SDK for PHP\" (aws_sdk_php)",
+            "type": "extension",
+            "component": "aws_sdk_php",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "aws_sdk_php"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=3.18.28"
+            ],
+            "vulnerabilities": [
+                "Environment Variable Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [
+                "CVE-2016-5385"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-004",
+            "advisory": "TYPO3-EXT-SA-2018-004",
+            "title": "Cross-site scripting vulnerability in extension \"Powermail\" (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=2.25.2"
+            ],
+            "vulnerabilities": [
+                "Cross-site scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-003",
+            "advisory": "TYPO3-EXT-SA-2018-003",
+            "title": "Environment Variable Injection in extension \"Amazon AWS S3 FAL driver (CDN)\" (aus_driver_amazon_s3)",
+            "type": "extension",
+            "component": "CDN",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "CDN"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=1.7.0"
+            ],
+            "vulnerabilities": [
+                "Environment Variable Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+                }
+            ],
+            "cve": [
+                "CVE-2016-5385"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-002",
+            "advisory": "TYPO3-EXT-SA-2018-002",
+            "title": "Missing Access Check in extension \"Register to tt_address\" (registeraddress)",
+            "type": "extension",
+            "component": "registeraddress",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "registeraddress"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=1.0.6"
+            ],
+            "vulnerabilities": [
+                "Missing Access Check"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2018-001",
+            "advisory": "TYPO3-EXT-SA-2018-001",
+            "title": "Cross-Site Scripting in extension \"Heise Shariff\" (rx_shariff)",
+            "type": "extension",
+            "component": "rx_shariff",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "rx_shariff"
+                }
+            ],
+            "date": "2018-08-09T00:00:00+00:00",
+            "versions": [
+                "<=10.3.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-020",
+            "advisory": "TYPO3-EXT-SA-2017-020",
+            "title": "Cross Site-Scripting in extension \"Caretaker\" (caretaker)",
+            "type": "extension",
+            "component": "caretaker",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "caretaker"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "<=0.8.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-019",
+            "advisory": "TYPO3-EXT-SA-2017-019",
+            "title": "Multiple vulnerabilities in extension \"JobControl\" (dmmjobcontrol)",
+            "type": "extension",
+            "component": "dmmjobcontrol",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dmmjobcontrol"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "<=2.16.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection",
+                "Cross Site-Scripting"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-018",
+            "advisory": "TYPO3-EXT-SA-2017-018",
+            "title": "Multiple vulnerabilities in extension \"DRC News Comment\" (news_comment)",
+            "type": "extension",
+            "component": "news_comment",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "news_comment"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "<=1.0.7"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution",
+                "Cross Site-Scripting"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-017",
+            "advisory": "TYPO3-EXT-SA-2017-017",
+            "title": "Authentication Bypass in extension \"Frontend User Registration\" (sf_register)",
+            "type": "extension",
+            "component": "sf_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sf_register"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "8.8.0"
+            ],
+            "vulnerabilities": [
+                "Authentication Bypass"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-016",
+            "advisory": "TYPO3-EXT-SA-2017-016",
+            "title": "SQL Injection in extension \"Download Center\" (pits_downloadcenter)",
+            "type": "extension",
+            "component": "pits_downloadcenter",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pits_downloadcenter"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "<=1.0.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-015",
+            "advisory": "TYPO3-EXT-SA-2017-015",
+            "title": "Cross Site-Scripting in extension \"Smallads\" (ke_smallads)",
+            "type": "extension",
+            "component": "ke_smallads",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ke_smallads"
+                }
+            ],
+            "date": "2017-12-19T00:00:00+00:00",
+            "versions": [
+                "<=1.3.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-014",
+            "advisory": "TYPO3-EXT-SA-2017-014",
+            "title": "Cross Site-Scripting in extension \"Multishop\" (multishop)",
+            "type": "extension",
+            "component": "multishop",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "multishop"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=5.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-013",
+            "advisory": "TYPO3-EXT-SA-2017-013",
+            "title": "Cross Site-Scripting in extension \"CAB FAL search\" (falsearch)",
+            "type": "extension",
+            "component": "falsearch",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "falsearch"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=0.2.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-012",
+            "advisory": "TYPO3-EXT-SA-2017-012",
+            "title": "Arbitrary File Disclosure in extension \"restler\" (restler)",
+            "type": "extension",
+            "component": "restler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "restler"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=1.7.0"
+            ],
+            "vulnerabilities": [
+                "Arbitrary File Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-011",
+            "advisory": "TYPO3-EXT-SA-2017-011",
+            "title": "Cross Site-Scripting in extension \"Formhandler\" (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=2.4.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-010",
+            "advisory": "TYPO3-EXT-SA-2017-010",
+            "title": "Cross Site-Scripting in extension \"Recommend page \" (pb_recommend_page)",
+            "type": "extension",
+            "component": "pb_recommend_page",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pb_recommend_page"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=2.0.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-009",
+            "advisory": "TYPO3-EXT-SA-2017-009",
+            "title": "Cross Site-Scripting in extension \"T3Blog Extbase\" (t3extblog)",
+            "type": "extension",
+            "component": "t3extblog",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "t3extblog"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=2.2.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-008",
+            "advisory": "TYPO3-EXT-SA-2017-008",
+            "title": "Multiple vulnerabilities in extension \"File manager\" (ameos_filemanager)",
+            "type": "extension",
+            "component": "ameos_filemanager",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ameos_filemanager"
+                }
+            ],
+            "date": "2017-11-07T00:00:00+00:00",
+            "versions": [
+                "<=1.0.1"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution",
+                "SQL Injection",
+                "Information Disclosure"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv3.0",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-003",
+            "advisory": "TYPO3-EXT-SA-2017-003",
+            "title": "SQL Injection in extension \"Faceted Search\" (ke_search)",
+            "type": "extension",
+            "component": "ke_search",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ke_search"
+                }
+            ],
+            "date": "2017-07-11T00:00:00+00:00",
+            "versions": [
+                "<=2.4.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-004",
+            "advisory": "TYPO3-EXT-SA-2017-004",
+            "title": "Remote Code Execution in extension \"Maag Sendmail\" (maag_sendmail)",
+            "type": "extension",
+            "component": "maag_sendmail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "maag_sendmail"
+                }
+            ],
+            "date": "2017-07-11T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-005",
+            "advisory": "TYPO3-EXT-SA-2017-005",
+            "title": "Remote Code Execution in extension \"AH Sendmail\" (ah_sendmail)",
+            "type": "extension",
+            "component": "ah_sendmail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ah_sendmail"
+                }
+            ],
+            "date": "2017-07-11T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-006",
+            "advisory": "TYPO3-EXT-SA-2017-006",
+            "title": "Remote Code Execution in extension \"PHPMailer\" (bb_phpmailer)",
+            "type": "extension",
+            "component": "bb_phpmailer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "bb_phpmailer"
+                }
+            ],
+            "date": "2017-07-11T00:00:00+00:00",
+            "versions": [
+                "<=1.73.1"
+            ],
+            "vulnerabilities": [
+                "Remote Code Execution"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-007",
+            "advisory": "TYPO3-EXT-SA-2017-007",
+            "title": "SQL Injection in extension \"Content Rating Extbase\" (content_rating_extbase)",
+            "type": "extension",
+            "component": "content_rating_extbase",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "content_rating_extbase"
+                }
+            ],
+            "date": "2017-07-11T00:00:00+00:00",
+            "versions": [
+                "<=2.0.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-002",
+            "advisory": "TYPO3-EXT-SA-2017-002",
+            "title": "SQL Injection in extension \"Event management and registration\" (sf_event_mgt)",
+            "type": "extension",
+            "component": "sf_event_mgt",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sf_event_mgt"
+                }
+            ],
+            "date": "2017-04-10T00:00:00+00:00",
+            "versions": [
+                "<=1.8.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2017-001",
+            "advisory": "TYPO3-EXT-SA-2017-001",
+            "title": "SQL Injection in extension \"News system\" (news)",
+            "type": "extension",
+            "component": "news",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "news"
+                }
+            ],
+            "date": "2017-04-10T00:00:00+00:00",
+            "versions": [
+                "<=3.2.6",
+                "4.0.0",
+                "5.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-033",
+            "advisory": "TYPO3-EXT-SA-2016-033",
+            "title": "Unvalidated Redirect in extension \"TC Directmail\" (tcdirectmail)",
+            "type": "extension",
+            "component": "tcdirectmail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "tcdirectmail"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=3.1.2"
+            ],
+            "vulnerabilities": [
+                "Unvalidated Redirect"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-032",
+            "advisory": "TYPO3-EXT-SA-2016-032",
+            "title": "SQL Injection in extension \"Member Infosheets\" (if_membersheet)",
+            "type": "extension",
+            "component": "if_membersheet",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "if_membersheet"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=0.1.2"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-031",
+            "advisory": "TYPO3-EXT-SA-2016-031",
+            "title": "Cross Site-Scripting in extension \"Secure Download Form\" (rs_securedownload)",
+            "type": "extension",
+            "component": "rs_securedownload",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "rs_securedownload"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=0.3.2"
+            ],
+            "vulnerabilities": [
+                "Cross Site-Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-030",
+            "advisory": "TYPO3-EXT-SA-2016-030",
+            "title": "SQL Injection in extension \"Shibboleth Authentication\" (shibboleth_auth)",
+            "type": "extension",
+            "component": "shibboleth_auth",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "shibboleth_auth"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=2.6.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-029",
+            "advisory": "TYPO3-EXT-SA-2016-029",
+            "title": "Insecure Unserialize and SQL Injection in extension \"Code Highlighter\" (mh_code_highlighter)",
+            "type": "extension",
+            "component": "mh_code_highlighter",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mh_code_highlighter"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=1.2.10"
+            ],
+            "vulnerabilities": [
+                "Insecure Unserialize",
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-028",
+            "advisory": "TYPO3-EXT-SA-2016-028",
+            "title": "Cross-Site Scripting in extension \"Store Locator\" (locator)",
+            "type": "extension",
+            "component": "locator",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "locator"
+                }
+            ],
+            "date": "2016-11-14T00:00:00+00:00",
+            "versions": [
+                "<=3.3.6"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-027",
+            "advisory": "TYPO3-EXT-SA-2016-027",
+            "title": "Cross-Site Scripting in extension \"HTML5 Video Player\" (html5videoplayer)",
+            "type": "extension",
+            "component": "html5videoplayer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "html5videoplayer"
+                }
+            ],
+            "date": "2016-11-11T00:00:00+00:00",
+            "versions": [
+                "<=6.7.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-026",
+            "advisory": "TYPO3-EXT-SA-2016-026",
+            "title": "Multiple vulnerabilities in extension \"TC Directmail \" (tcdirectmail)",
+            "type": "extension",
+            "component": "tcdirectmail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "tcdirectmail"
+                }
+            ],
+            "date": "2016-11-11T00:00:00+00:00",
+            "versions": [
+                "<=3.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross Site-Scripting",
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-025",
+            "advisory": "TYPO3-EXT-SA-2016-025",
+            "title": "Multiple vulnerabilities in extension \"phpMyAdmin\" (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2016-09-29T00:00:00+00:00",
+            "versions": [
+                "<=5.1.6"
+            ],
+            "vulnerabilities": [
+                "Multiple vulnerabilities"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-024",
+            "advisory": "TYPO3-EXT-SA-2016-024",
+            "title": "SQL Injection in extension \"Events\" (jp_events)",
+            "type": "extension",
+            "component": "jp_events",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "jp_events"
+                }
+            ],
+            "date": "2016-09-29T00:00:00+00:00",
+            "versions": [
+                "<=0.0.2"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-023",
+            "advisory": "TYPO3-EXT-SA-2016-023",
+            "title": "SQL Injection in extension \"GN Tactics Planner\" (sf_gntactics)",
+            "type": "extension",
+            "component": "sf_gntactics",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sf_gntactics"
+                }
+            ],
+            "date": "2016-09-29T00:00:00+00:00",
+            "versions": [
+                "<=0.2.8"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-022",
+            "advisory": "TYPO3-EXT-SA-2016-022",
+            "title": "Arbitrary Code Execution in extension \"Frontend User Registration\" (sf_register)",
+            "type": "extension",
+            "component": "sf_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sf_register"
+                }
+            ],
+            "date": "2016-09-12T00:00:00+00:00",
+            "versions": [
+                "<=6.2.8"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-021",
+            "advisory": "TYPO3-EXT-SA-2016-021",
+            "title": "Denial of Service in extension \"Speaking URLs for TYPO3\" (realurl)",
+            "type": "extension",
+            "component": "realurl",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "realurl"
+                }
+            ],
+            "date": "2016-09-08T00:00:00+00:00",
+            "versions": [
+                "2.0.0"
+            ],
+            "vulnerabilities": [
+                "Denial of Service"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:N/A:C/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-020",
+            "advisory": "TYPO3-EXT-SA-2016-020",
+            "title": "Insecure Unserialize in extension \"Page path\" (pagepath)",
+            "type": "extension",
+            "component": "pagepath",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pagepath"
+                }
+            ],
+            "date": "2016-07-07T00:00:00+00:00",
+            "versions": [
+                "<=1.0.3"
+            ],
+            "vulnerabilities": [
+                "Insecure Unserialize"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-019",
+            "advisory": "TYPO3-EXT-SA-2016-019",
+            "title": "Cross-Site Scripting in extension \"CCDebug\" (cc_debug)",
+            "type": "extension",
+            "component": "cc_debug",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "cc_debug"
+                }
+            ],
+            "date": "2016-07-07T00:00:00+00:00",
+            "versions": [
+                "<=1.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-018",
+            "advisory": "TYPO3-EXT-SA-2016-018",
+            "title": "Cross-Site Scripting in extension \"Bootstrap Package\" (bootstrap_package)",
+            "type": "extension",
+            "component": "bootstrap_package",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "bootstrap_package"
+                }
+            ],
+            "date": "2016-06-15T00:00:00+00:00",
+            "versions": [
+                "<=6.2.15"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-017",
+            "advisory": "TYPO3-EXT-SA-2016-017",
+            "title": "Information Disclosure in \"MMC directmail subscription\" (mmc_directmail_subscription)",
+            "type": "extension",
+            "component": "mmc_directmail_subscription",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mmc_directmail_subscription"
+                }
+            ],
+            "date": "2016-05-31T00:00:00+00:00",
+            "versions": [
+                "<=0.9.6"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-016",
+            "advisory": "TYPO3-EXT-SA-2016-016",
+            "title": "Multiple vulnerabilities in extension \"http:BL Blocking\" (mh_httpbl)",
+            "type": "extension",
+            "component": "mh_httpbl",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mh_httpbl"
+                }
+            ],
+            "date": "2016-05-31T00:00:00+00:00",
+            "versions": [
+                "<=1.1.7"
+            ],
+            "vulnerabilities": [
+                "SQL injection",
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-015",
+            "advisory": "TYPO3-EXT-SA-2016-015",
+            "title": "Non-Persistent Cross-Site Scripting in extension \"Static Methods since 2007\" (div2007)",
+            "type": "extension",
+            "component": "div2007",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "div2007"
+                }
+            ],
+            "date": "2016-05-31T00:00:00+00:00",
+            "versions": [
+                "<=1.6.8"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-014",
+            "advisory": "TYPO3-EXT-SA-2016-014",
+            "title": "Information Disclosure in extension \"Questionnaire\" (ke_questionnaire)",
+            "type": "extension",
+            "component": "ke_questionnaire",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ke_questionnaire"
+                }
+            ],
+            "date": "2016-05-31T00:00:00+00:00",
+            "versions": [
+                "<=2.5.8"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:W/RL:W/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-3758"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-013",
+            "advisory": "TYPO3-EXT-SA-2016-013",
+            "title": "SQL Injection in extension \"Browser - TYPO3 without PHP\" (browser)",
+            "type": "extension",
+            "component": "browser",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "browser"
+                }
+            ],
+            "date": "2016-05-31T00:00:00+00:00",
+            "versions": [
+                "<=7.4.8"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-012",
+            "advisory": "TYPO3-EXT-SA-2016-012",
+            "title": "Path Traversal in extension \"Media management\" (media)",
+            "type": "extension",
+            "component": "media",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "media"
+                }
+            ],
+            "date": "2016-05-27T00:00:00+00:00",
+            "versions": [
+                "<=4.0.3"
+            ],
+            "vulnerabilities": [
+                "Path Traversal"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-011",
+            "advisory": "TYPO3-EXT-SA-2016-011",
+            "title": "Cross-Site Scripting in extension \"Formhandler\" (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2016-05-27T00:00:00+00:00",
+            "versions": [
+                "<=2.3.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-010",
+            "advisory": "TYPO3-EXT-SA-2016-010",
+            "title": "Missing Access Check in extension \"Frontend User Registration\" (sf_register)",
+            "type": "extension",
+            "component": "sf_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sf_register"
+                }
+            ],
+            "date": "2016-05-24T00:00:00+00:00",
+            "versions": [
+                "<=6.2.7"
+            ],
+            "vulnerabilities": [
+                "Missing Access Check"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-009",
+            "advisory": "TYPO3-EXT-SA-2016-009",
+            "title": "Multiple vulnerabilities in extension \"Ajax mail subscription\" (ods_ajaxmailsubscription)",
+            "type": "extension",
+            "component": "ods_ajaxmailsubscription",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ods_ajaxmailsubscription"
+                }
+            ],
+            "date": "2016-03-24T00:00:00+00:00",
+            "versions": [
+                "<=1.4.4"
+            ],
+            "vulnerabilities": [
+                "Insecure Authentication and Session Handling"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-008",
+            "advisory": "TYPO3-EXT-SA-2016-008",
+            "title": "SQL Injection in extension \"Another simple gallery\" (chgallery)",
+            "type": "extension",
+            "component": "chgallery",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "chgallery"
+                }
+            ],
+            "date": "2016-03-10T00:00:00+00:00",
+            "versions": [
+                "<=2.5.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-007",
+            "advisory": "TYPO3-EXT-SA-2016-007",
+            "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2016-03-10T00:00:00+00:00",
+            "versions": [
+                "<=5.1.4"
+            ],
+            "vulnerabilities": [
+                "Unsafe Comparison of XSRF/CSRF token",
+                "Full Path Disclosure",
+                "Cross-Site Scripting",
+                "Insecure Password Generation"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-006",
+            "advisory": "TYPO3-EXT-SA-2016-006",
+            "title": "Cross-Site Scripting in extension \"Apache Solr for TYPO3\" (solr)",
+            "type": "extension",
+            "component": "solr",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "solr"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=2.8.3",
+                "3.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-005",
+            "advisory": "TYPO3-EXT-SA-2016-005",
+            "title": "Cross-Site Scripting in extension \"Extension Kickstarter\" (kickstarter)",
+            "type": "extension",
+            "component": "kickstarter",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "kickstarter"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=0.5.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:N/I:N/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-004",
+            "advisory": "TYPO3-EXT-SA-2016-004",
+            "title": "Multiple vulnerabilities in extension \"Fe user statistic\" (festat)",
+            "type": "extension",
+            "component": "festat",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "festat"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=0.3.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Insecure Unserialize and Information Disclosure"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-003",
+            "advisory": "TYPO3-EXT-SA-2016-003",
+            "title": "Cross-Site Scripting in extension \"Google Sitemap\" (enter_new_weeaar_googlesitemap)",
+            "type": "extension",
+            "component": "enter_new_weeaar_googlesitemap",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "enter_new_weeaar_googlesitemap"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=1.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-002",
+            "advisory": "TYPO3-EXT-SA-2016-002",
+            "title": "Cross-Site Scripting in extension \"List frontend users\" (listfeusers)",
+            "type": "extension",
+            "component": "listfeusers",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "listfeusers"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=0.9.9"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2016-001",
+            "advisory": "TYPO3-EXT-SA-2016-001",
+            "title": "Information Disclosure in extension \"UTOPIA\" (ics_utopia)",
+            "type": "extension",
+            "component": "ics_utopia",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ics_utopia"
+                }
+            ],
+            "date": "2016-03-03T00:00:00+00:00",
+            "versions": [
+                "<=1.0.1"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:N/A:N/E:H/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-022",
+            "advisory": "TYPO3-EXT-SA-2015-022",
+            "title": "Arbitrary Code Execution in extension \"MK Forms\" (mkforms)",
+            "type": "extension",
+            "component": "mkforms",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mkforms"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=1.0.23"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:C/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-021",
+            "advisory": "TYPO3-EXT-SA-2015-021",
+            "title": "SQL Injection in extension \"http:BL Blocking\" (mh_httpbl)",
+            "type": "extension",
+            "component": "mh_httpbl",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mh_httpbl"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=1.1.7"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-020",
+            "advisory": "TYPO3-EXT-SA-2015-020",
+            "title": "Cross-Site Request Forgery in extension \"Typo3 Quixplorer\" (t3quixplorer)",
+            "type": "extension",
+            "component": "t3quixplorer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "t3quixplorer"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=1.7.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Request Forgery"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:P/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-019",
+            "advisory": "TYPO3-EXT-SA-2015-019",
+            "title": "File Disclosure in extension \"Zend Framework Integration\" (zend_framework)",
+            "type": "extension",
+            "component": "zend_framework",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "zend_framework"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=1.7.6"
+            ],
+            "vulnerabilities": [
+                "File Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-018",
+            "advisory": "TYPO3-EXT-SA-2015-018",
+            "title": "Information Disclosure in extension \"Adminer\" (t3adminer)",
+            "type": "extension",
+            "component": "t3adminer",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "t3adminer"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=7.0.1"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-017",
+            "advisory": "TYPO3-EXT-SA-2015-017",
+            "title": "Cross-Site Scripting in extension \"News system\" (news)",
+            "type": "extension",
+            "component": "news",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "news"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=3.2.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-016",
+            "advisory": "TYPO3-EXT-SA-2015-016",
+            "title": "Information Disclosure in extension \"LDAP\" (eu_ldap)",
+            "type": "extension",
+            "component": "eu_ldap",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "eu_ldap"
+                }
+            ],
+            "date": "2015-09-30T00:00:00+00:00",
+            "versions": [
+                "<=2.8.18"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-015",
+            "advisory": "TYPO3-EXT-SA-2015-015",
+            "title": "Cross-Site Scripting in extension \"404 Page not found handling\" (pagenotfoundhandling)",
+            "type": "extension",
+            "component": "pagenotfoundhandling",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pagenotfoundhandling"
+                }
+            ],
+            "date": "2015-06-29T00:00:00+00:00",
+            "versions": [
+                "<=2.1.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-014",
+            "advisory": "TYPO3-EXT-SA-2015-014",
+            "title": "SQL Injection in extension \"Akronymmanager\" (sb_akronymmanager)",
+            "type": "extension",
+            "component": "sb_akronymmanager",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sb_akronymmanager"
+                }
+            ],
+            "date": "2015-06-18T00:00:00+00:00",
+            "versions": [
+                "<=0.5.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-013",
+            "advisory": "TYPO3-EXT-SA-2015-013",
+            "title": "Arbitrary Code Execution in extension Job Fair (jobfair)",
+            "type": "extension",
+            "component": "jobfair",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "jobfair"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=1.0.0"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:C/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-007",
+            "advisory": "TYPO3-EXT-SA-2015-007",
+            "title": "Cross-Site Scripting in extension BE User Log (beko_beuserlog)",
+            "type": "extension",
+            "component": "beko_beuserlog",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "beko_beuserlog"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=1.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:P/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-006",
+            "advisory": "TYPO3-EXT-SA-2015-006",
+            "title": "Arbitrary Code Execution in extension Frontend User Upload (feupload)",
+            "type": "extension",
+            "component": "feupload",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "feupload"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=0.5.0"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:C/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-008",
+            "advisory": "TYPO3-EXT-SA-2015-008",
+            "title": "SQL Injection vulnerability in extension wt_directory (wt_directory)",
+            "type": "extension",
+            "component": "wt_directory",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "wt_directory"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=1.4.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:P/F:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-009",
+            "advisory": "TYPO3-EXT-SA-2015-009",
+            "title": "SQL Injection vulnerability in extension Store Locator (locator)",
+            "type": "extension",
+            "component": "locator",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "locator"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=3.3.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:P/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-010",
+            "advisory": "TYPO3-EXT-SA-2015-010",
+            "title": "SQL Injection vulnerability in extension Smoelenboek (ncgov_smoelenboek)",
+            "type": "extension",
+            "component": "ncgov_smoelenboek",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ncgov_smoelenboek"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=1.0.8"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:P/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-011",
+            "advisory": "TYPO3-EXT-SA-2015-011",
+            "title": "SQL Injection vulnerability in extension Developer Log (devlog)",
+            "type": "extension",
+            "component": "devlog",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "devlog"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=2.11.3"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:P/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-012",
+            "advisory": "TYPO3-EXT-SA-2015-012",
+            "title": "SQL Injection vulnerability in extension FAQ - Frequently Asked Questions (js_faq)",
+            "type": "extension",
+            "component": "js_faq",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "js_faq"
+                }
+            ],
+            "date": "2015-06-15T00:00:00+00:00",
+            "versions": [
+                "<=1.2.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:P/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-005",
+            "advisory": "TYPO3-EXT-SA-2015-005",
+            "title": "Cross-Site Scripting in extension Gridelements (gridelements)",
+            "type": "extension",
+            "component": "gridelements",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "gridelements"
+                }
+            ],
+            "date": "2015-02-17T00:00:00+00:00",
+            "versions": [
+                "3.0.0",
+                "<=2.1.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:P"
+                }
+            ],
+            "cve": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-004",
+            "advisory": "TYPO3-EXT-SA-2015-004",
+            "title": "Information Disclosure in Direct Mail Subscription (direct_mail_subscription)",
+            "type": "extension",
+            "component": "direct_mail_subscription",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "direct_mail_subscription"
+                }
+            ],
+            "date": "2015-01-16T00:00:00+00:00",
+            "versions": [
+                "2.0.1"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-003",
+            "advisory": "TYPO3-EXT-SA-2015-003",
+            "title": "Multiple vulnerabilities in Content Rating Extbase (content_rating_extbase)",
+            "type": "extension",
+            "component": "content_rating_extbase",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "content_rating_extbase"
+                }
+            ],
+            "date": "2015-01-09T00:00:00+00:00",
+            "versions": [
+                "<=2.0.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:P"
+                }
+            ],
+            "cve": [
+                "CVE-2015-1404",
+                "CVE-2015-1405"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-002",
+            "advisory": "TYPO3-EXT-SA-2015-002",
+            "title": "Multiple vulnerabilities in Content Rating (content_rating)",
+            "type": "extension",
+            "component": "content_rating",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "content_rating"
+                }
+            ],
+            "date": "2015-01-09T00:00:00+00:00",
+            "versions": [
+                "<=1.0.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:P"
+                }
+            ],
+            "cve": [
+                "CVE-2015-1402",
+                "CVE-2015-1403"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2015-001",
+            "advisory": "TYPO3-EXT-SA-2015-001",
+            "title": "Improper Authentication in LDAP / SSO Authentication (ig_ldap_sso_auth)",
+            "type": "extension",
+            "component": "ig_ldap_sso_auth",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ig_ldap_sso_auth"
+                }
+            ],
+            "date": "2015-01-08T00:00:00+00:00",
+            "versions": [
+                "2.0.0"
+            ],
+            "vulnerabilities": [
+                "Improper Authentication"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [
+                "CVE-2015-1401"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-021",
+            "advisory": "TYPO3-EXT-SA-2014-021",
+            "title": "Cross-Site Scripting vulnerability in wfGallery (wf_gallery)",
+            "type": "extension",
+            "component": "wf_gallery",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "wf_gallery"
+                }
+            ],
+            "date": "2014-12-15T00:00:00+00:00",
+            "versions": [
+                "<=1.0.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-020",
+            "advisory": "TYPO3-EXT-SA-2014-020",
+            "title": "Multiple vulnerabilities in BibTex Publications (si_bibtex)",
+            "type": "extension",
+            "component": "si_bibtex",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "si_bibtex"
+                }
+            ],
+            "date": "2014-12-15T00:00:00+00:00",
+            "versions": [
+                "<=0.2.3"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P"
+                }
+            ],
+            "cve": [
+                "CVE-2014-3758",
+                "CVE-2014-3759"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-019",
+            "advisory": "TYPO3-EXT-SA-2014-019",
+            "title": "Multiple vulnerabilities in Drag Drop Mass Upload (ameos_dragndropupload)",
+            "type": "extension",
+            "component": "ameos_dragndropupload",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ameos_dragndropupload"
+                }
+            ],
+            "date": "2014-12-15T00:00:00+00:00",
+            "versions": [
+                "<=3.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Cross-Site Request Forgery",
+                "Improper Access Control"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-018",
+            "advisory": "TYPO3-EXT-SA-2014-018",
+            "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2014-12-08T00:00:00+00:00",
+            "versions": [
+                "4.18.5"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Denial of Service",
+                "Local File Inclusion"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:S/C:C/I:C/A:P/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-017",
+            "advisory": "TYPO3-EXT-SA-2014-017",
+            "title": "Improper Access Control in WebDav for filemounts (webdav)",
+            "type": "extension",
+            "component": "webdav",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "webdav"
+                }
+            ],
+            "date": "2014-11-27T00:00:00+00:00",
+            "versions": [
+                "2.0.0"
+            ],
+            "vulnerabilities": [
+                "Improper Access Control"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:H/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-016",
+            "advisory": "TYPO3-EXT-SA-2014-016",
+            "title": "Cross-Site Scripting vulnerability in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2014-11-05T00:00:00+00:00",
+            "versions": [
+                "4.18.0",
+                "4.18.1",
+                "4.18.2",
+                "4.18.3"
+            ],
+            "vulnerabilities": [
+                "XSS"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-015",
+            "advisory": "TYPO3-EXT-SA-2014-015",
+            "title": "Information Disclosure vulnerability in Dynamic Content Elements (dce)",
+            "type": "extension",
+            "component": "dce",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dce"
+                }
+            ],
+            "date": "2014-10-17T00:00:00+00:00",
+            "versions": [
+                "0.7.0",
+                "0.8.0",
+                "0.9.0",
+                "0.10.0",
+                "<=0.11.4"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:H/RL:O"
+                }
+            ],
+            "cve": [
+                "CVE-2014-8328"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-014",
+            "advisory": "TYPO3-EXT-SA-2014-014",
+            "title": "Improper Access Control vulnerability in extension fal_sftp (fal_sftp)",
+            "type": "extension",
+            "component": "fal_sftp",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "fal_sftp"
+                }
+            ],
+            "date": "2014-10-17T00:00:00+00:00",
+            "versions": [
+                "0.2.4",
+                "0.2.5"
+            ],
+            "vulnerabilities": [
+                "Improper Access Control"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:P"
+                }
+            ],
+            "cve": [
+                "CVE-2014-8327"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-013",
+            "advisory": "TYPO3-EXT-SA-2014-013",
+            "title": "Denial of Service vulnerability in extension Calendar Base (cal)",
+            "type": "extension",
+            "component": "cal",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "cal"
+                }
+            ],
+            "date": "2014-10-17T00:00:00+00:00",
+            "versions": [
+                "<1.0.0",
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.3.0",
+                "<=1.5.8"
+            ],
+            "vulnerabilities": [
+                "Denial of Service"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:C/E:P"
+                }
+            ],
+            "cve": [
+                "CVE-2014-8325"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-011",
+            "advisory": "TYPO3-EXT-SA-2014-011",
+            "title": "Several vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2014-09-26T00:00:00+00:00",
+            "versions": [
+                "<=4.18.2"
+            ],
+            "vulnerabilities": [
+                "XSS",
+                "CSRF"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-012",
+            "advisory": "TYPO3-EXT-SA-2014-012",
+            "title": "Several vulnerabilities in extension JobControl (dmmjobcontrol)",
+            "type": "extension",
+            "component": "dmmjobcontrol",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dmmjobcontrol"
+                }
+            ],
+            "date": "2014-09-25T00:00:00+00:00",
+            "versions": [
+                "<=2.14.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:A/I:P/A:N/E:H/RL:U/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-7200",
+                "CVE-2014-7201"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-010",
+            "advisory": "TYPO3-EXT-SA-2014-010",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2014-09-02T00:00:00+00:00",
+            "versions": [
+                "<=1.4.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-6241"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-009",
+            "advisory": "TYPO3-EXT-SA-2014-009",
+            "title": "Cross-Site Scripting in news",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2014-06-03T00:00:00+00:00",
+            "versions": [
+                "<=2.3.0",
+                "3.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:P/A:N/E:H/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-008",
+            "advisory": "TYPO3-EXT-SA-2014-008",
+            "title": "Cross-Site Scripting in gridelements",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2014-05-27T00:00:00+00:00",
+            "versions": [
+                "<=2.0.2",
+                "<=1.5.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-3949"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-007",
+            "advisory": "TYPO3-EXT-SA-2014-007",
+            "title": "Arbitrary code execution in extension \"powermail\" (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2014-05-22T00:00:00+00:00",
+            "versions": [
+                "<=1.6.10"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-3948"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-006",
+            "advisory": "TYPO3-EXT-SA-2014-006",
+            "title": "Captcha Bypass in extension \"powermail\" (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2014-04-10T00:00:00+00:00",
+            "versions": [
+                ">=2.0.0 <=2.0.10"
+            ],
+            "vulnerabilities": [
+                "Captcha Bypass"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:N/A:P/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-6288"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-005",
+            "advisory": "TYPO3-EXT-SA-2014-005",
+            "title": "Access Bypass in extensions \"Yet Another Gallery\" (yag) and \"Tools for Extbase development\" (pt_extbase)",
+            "type": "extension",
+            "component": "yag",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "yag"
+                }
+            ],
+            "date": "2014-02-12T00:00:00+00:00",
+            "versions": [
+                "<=3.0.0",
+                "<=1.5.0"
+            ],
+            "vulnerabilities": [
+                "Access Bypass"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-6289"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-004",
+            "advisory": "TYPO3-EXT-SA-2014-004",
+            "title": "Mass Assignment in extension Direct Mail Subscription (direct_mail_subscription)",
+            "type": "extension",
+            "component": "direct_mail_subscription",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "direct_mail_subscription"
+                }
+            ],
+            "date": "2014-02-12T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "Mass Assignment"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-003",
+            "advisory": "TYPO3-EXT-SA-2014-003",
+            "title": "Insecure Unserialize in extension News (tt_news)",
+            "type": "extension",
+            "component": "tt_news",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "tt_news"
+                }
+            ],
+            "date": "2014-02-12T00:00:00+00:00",
+            "versions": [
+                "<=3.5.1"
+            ],
+            "vulnerabilities": [
+                "Insecure Unserialize"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:C/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-6290"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-002",
+            "advisory": "TYPO3-EXT-SA-2014-002",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2014-02-12T00:00:00+00:00",
+            "versions": [
+                "<=3.0.2"
+            ],
+            "vulnerabilities": [
+                "SQL Injection and Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2014-6295",
+                "CVE-2014-6296"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2014-001",
+            "advisory": "TYPO3-EXT-SA-2014-001",
+            "title": "Several vulnerabilities in extension mm_forum (mm_forum)",
+            "type": "extension",
+            "component": "mm_forum",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mm_forum"
+                }
+            ],
+            "date": "2014-02-12T00:00:00+00:00",
+            "versions": [
+                "<=1.9.2"
+            ],
+            "vulnerabilities": [
+                "Arbitrary Code Execution",
+                "Cross-Site Scripting and Cross-Site Request Forgery (CSRF)."
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-018",
+            "advisory": "TYPO3-EXT-SA-2013-018",
+            "title": "Several vulnerabilities in extension AWStats (cc_awstats)",
+            "type": "extension",
+            "component": "cc_awstats",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "cc_awstats"
+                }
+            ],
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": [
+                "<=0.10.0"
+            ],
+            "vulnerabilities": [
+                "Unspecific"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:C/E:U/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-017",
+            "advisory": "TYPO3-EXT-SA-2013-017",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": [
+                "<=0.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-016",
+            "advisory": "TYPO3-EXT-SA-2013-016",
+            "title": "SQL Injection vulnerability in extension Formhandler (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": null,
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-015",
+            "advisory": "TYPO3-EXT-SA-2013-015",
+            "title": "SQL Injection vulnerability in extension RealURL: speaking paths for TYPO3 (realurl)",
+            "type": "extension",
+            "component": "realurl",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "realurl"
+                }
+            ],
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": [
+                "<=1.12.6"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-014",
+            "advisory": "TYPO3-EXT-SA-2013-014",
+            "title": "Information Disclosure in extension Direct Mail (direct_mail)",
+            "type": "extension",
+            "component": "direct_mail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "direct_mail"
+                }
+            ],
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": [
+                "<=3.1.1"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2013-7400"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-009",
+            "advisory": "TYPO3-EXT-SA-2013-009",
+            "title": "Several vulnerabilities in extension Apache Solr for TYPO3 (solr)",
+            "type": "extension",
+            "component": "solr",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "solr"
+                }
+            ],
+            "date": "2013-09-25T00:00:00+00:00",
+            "versions": [
+                "<=2.8.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting and Insecure Unserialize"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2013-6288",
+                "CVE-2013-6289"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-013",
+            "advisory": "TYPO3-EXT-SA-2013-013",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-08-05T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2013-5310"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-012",
+            "advisory": "TYPO3-EXT-SA-2013-012",
+            "title": "Several vulnerabilities in extension Formhandler (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2013-08-05T00:00:00+00:00",
+            "versions": null,
+            "vulnerabilities": [
+                "SQL-Injection",
+                "Arbitrary Code Execution and Authentication Bypass"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-011",
+            "advisory": "TYPO3-EXT-SA-2013-011",
+            "title": "Cross-Site Scripting vulnerability in extension Front End User Registration (sr_feuser_register)",
+            "type": "extension",
+            "component": "sr_feuser_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sr_feuser_register"
+                }
+            ],
+            "date": "2013-08-05T00:00:00+00:00",
+            "versions": null,
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-010",
+            "advisory": "TYPO3-EXT-SA-2013-010",
+            "title": "SQL Injection vulnerability in extension Multishop (multishop)",
+            "type": "extension",
+            "component": "multishop",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "multishop"
+                }
+            ],
+            "date": "2013-06-03T00:00:00+00:00",
+            "versions": [
+                "<=2.0.38"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-007",
+            "advisory": "TYPO3-EXT-SA-2013-007",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-06-03T00:00:00+00:00",
+            "versions": [
+                "<=0.0.8"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-006",
+            "advisory": "TYPO3-EXT-SA-2013-006",
+            "title": "Security Bypass Vulnerability in extension powermail (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2013-06-03T00:00:00+00:00",
+            "versions": [
+                "<=1.6.9",
+                ">=2.0.1 <=2.0.6"
+            ],
+            "vulnerabilities": [
+                "Security Bypass"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:P/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-005",
+            "advisory": "TYPO3-EXT-SA-2013-005",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-02-19T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection and Cross-Site Scripting"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-004",
+            "advisory": "TYPO3-EXT-SA-2013-004",
+            "title": "Cross-Site Scripting vulnerability in extension Static Info Tables (static_info_tables)",
+            "type": "extension",
+            "component": "static_info_tables",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "static_info_tables"
+                }
+            ],
+            "date": "2013-02-19T00:00:00+00:00",
+            "versions": [
+                "<=2.3.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-003",
+            "advisory": "TYPO3-EXT-SA-2013-003",
+            "title": "SQL Injection vulnerability in extension CoolURI (cooluri)",
+            "type": "extension",
+            "component": "cooluri",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "cooluri"
+                }
+            ],
+            "date": "2013-02-19T00:00:00+00:00",
+            "versions": [
+                "<=1.0.29"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2013-5322"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-002",
+            "advisory": "TYPO3-EXT-SA-2013-002",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-01-28T00:00:00+00:00",
+            "versions": [
+                "2.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:N/C:C/I:N/A:N/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2013-5570"
+            ],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2013-001",
+            "advisory": "TYPO3-EXT-SA-2013-001",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2013-01-11T00:00:00+00:00",
+            "versions": [
+                "<=0.4.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-013",
+            "advisory": "TYPO3-EXT-SA-2012-013",
+            "title": "Several Vulnerabilities in extension commerce (commerce)",
+            "type": "extension",
+            "component": "commerce",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "commerce"
+                }
+            ],
+            "date": "2012-12-21T00:00:00+00:00",
+            "versions": [
+                "<=0.12.7"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:C/A:P/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-012",
+            "advisory": "TYPO3-EXT-SA-2012-012",
+            "title": "Several Vulnerabilities in extension Formhandler (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2012-10-25T00:00:00+00:00",
+            "versions": [
+                "<=1.4.0"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:C/A:P/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-011",
+            "advisory": "TYPO3-EXT-SA-2012-011",
+            "title": "Cross-site scripting vulnerability in extension powermail for TYPO3 (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2012-08-08T00:00:00+00:00",
+            "versions": [
+                "<=1.6.8",
+                "2.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection",
+                "Arbitrary Code Execution"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-010",
+            "advisory": "TYPO3-EXT-SA-2012-010",
+            "title": "Cross-site scripting vulnerability in extension Seminars (seminars)",
+            "type": "extension",
+            "component": "seminars",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "seminars"
+                }
+            ],
+            "date": "2012-07-03T00:00:00+00:00",
+            "versions": [
+                "<=0.9.3"
+            ],
+            "vulnerabilities": [
+                "Cross-site scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-009",
+            "advisory": "TYPO3-EXT-SA-2012-009",
+            "title": "Cross-site scripting vulnerability in extension powermail for TYPO3 (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2012-06-07T00:00:00+00:00",
+            "versions": [
+                "<=1.6.6"
+            ],
+            "vulnerabilities": [
+                "Cross-site scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:U/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-008",
+            "advisory": "TYPO3-EXT-SA-2012-008",
+            "title": "Cross-site scripting vulnerability in extension Ameos Formidable (ameos_formidable)",
+            "type": "extension",
+            "component": "ameos_formidable",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ameos_formidable"
+                }
+            ],
+            "date": "2012-06-07T00:00:00+00:00",
+            "versions": [
+                "<=1.1.373"
+            ],
+            "vulnerabilities": [
+                "Cross-site scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-007",
+            "advisory": "TYPO3-EXT-SA-2012-007",
+            "title": "SQL Injection vulnerability in extension Basic SEO Features (seo_basics) ",
+            "type": "extension",
+            "component": "seo_basics",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "seo_basics"
+                }
+            ],
+            "date": "2012-06-07T00:00:00+00:00",
+            "versions": [
+                "<=0.8.2"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-006",
+            "advisory": "TYPO3-EXT-SA-2012-006",
+            "title": "Cross-Site Scripting vulnerability in extension Basic SEO Features (seo_basics)",
+            "type": "extension",
+            "component": "seo_basics",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "seo_basics"
+                }
+            ],
+            "date": "2012-03-28T00:00:00+00:00",
+            "versions": [
+                "<=0.8.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:N/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-005",
+            "advisory": "TYPO3-EXT-SA-2012-005",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2012-03-28T00:00:00+00:00",
+            "versions": [
+                "<=1.3.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:N/C:C/I:N/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-004",
+            "advisory": "TYPO3-EXT-SA-2012-004",
+            "title": "Cross-Site Scripting vulnerability in extension powermail for TYPO3 (powermail)",
+            "type": "extension",
+            "component": "powermail",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "powermail"
+                }
+            ],
+            "date": "2012-03-28T00:00:00+00:00",
+            "versions": [
+                "<=1.6.4"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-003",
+            "advisory": "TYPO3-EXT-SA-2012-003",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2012-02-23T00:00:00+00:00",
+            "versions": [
+                "<=1.0.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "SQL Injection"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:P/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-002",
+            "advisory": "TYPO3-EXT-SA-2012-002",
+            "title": "Information disclosure vulnerabilities in extension \"Front End User Registration\" (sr_feuser_register)",
+            "type": "extension",
+            "component": "sr_feuser_register",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "sr_feuser_register"
+                }
+            ],
+            "date": "2012-02-23T00:00:00+00:00",
+            "versions": [
+                "<=2.6.1"
+            ],
+            "vulnerabilities": [
+                "Information disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:P"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-001",
+            "advisory": "TYPO3-EXT-SA-2012-001",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2012-02-02T00:00:00+00:00",
+            "versions": [
+                "0.1.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-018",
+            "advisory": "TYPO3-EXT-SA-2011-018",
+            "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2011-11-15T00:00:00+00:00",
+            "versions": [
+                "<=4.11.8"
+            ],
+            "vulnerabilities": [
+                "Local file inclusion"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-017",
+            "advisory": "TYPO3-EXT-SA-2011-017",
+            "title": "Authentication Bypass and Blind LDAP Injection in extension eu_ldap",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2011-11-15T00:00:00+00:00",
+            "versions": [
+                "<=2.8.10"
+            ],
+            "vulnerabilities": [
+                "Authentication Bypass",
+                "Blind LDAP Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-016",
+            "advisory": "TYPO3-EXT-SA-2011-016",
+            "title": "Remote Command Execution and Remote File Disclosure vulnerability in extension pdf_generator2",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2011-10-20T00:00:00+00:00",
+            "versions": [
+                "<=0.21.0"
+            ],
+            "vulnerabilities": [
+                "Remote Command Execution",
+                "Remote File Disclosure"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:P/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-015",
+            "advisory": "TYPO3-EXT-SA-2011-015",
+            "title": "Remote File Disclosure and Cross-Site Scripting vulnerability in extensions pmkshadowbox and pmkslimbox",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2011-10-20T00:00:00+00:00",
+            "versions": [
+                "<=3.1.0"
+            ],
+            "vulnerabilities": [
+                "Remote File Disclosure",
+                "Cross-Site Scripting"
+            ],
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-014",
+            "advisory": "TYPO3-EXT-SA-2011-014",
+            "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2011-10-18T00:00:00+00:00",
+            "versions": [
+                "<=4.11.5"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Full Path Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-012",
+            "advisory": "TYPO3-EXT-SA-2011-012",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2011-09-28T00:00:00+00:00",
+            "versions": [
+                "<=0.1.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:U/RL:U/RC:C"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-013",
+            "advisory": "TYPO3-EXT-SA-2011-013",
+            "title": "Cross-Site scripting vulnerability in extension t3blog (t3blog)",
+            "type": "extension",
+            "component": "t3blog",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "t3blog"
+                }
+            ],
+            "date": "2011-09-27T00:00:00+00:00",
+            "versions": [
+                "<=1.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-011",
+            "advisory": "TYPO3-EXT-SA-2011-011",
+            "title": "Multiple XSS vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2011-09-15T00:00:00+00:00",
+            "versions": [
+                "<=4.11.4"
+            ],
+            "vulnerabilities": [
+                "Multiple Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-009",
+            "advisory": "TYPO3-EXT-SA-2011-009",
+            "title": "Several Vulnerabilities in extension MailformPlus (th_mailformplus)",
+            "type": "extension",
+            "component": "th_mailformplus",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "th_mailformplus"
+                }
+            ],
+            "date": "2011-09-07T00:00:00+00:00",
+            "versions": [
+                "<=4.0.15"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-008",
+            "advisory": "TYPO3-EXT-SA-2011-008",
+            "title": "Several Vulnerabilities in extension SmoothGallery for TYPO3 (rgsmoothgallery)",
+            "type": "extension",
+            "component": "rgsmoothgallery",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "rgsmoothgallery"
+                }
+            ],
+            "date": "2011-09-07T00:00:00+00:00",
+            "versions": [
+                "<=1.5.1"
+            ],
+            "vulnerabilities": null,
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-007",
+            "advisory": "TYPO3-EXT-SA-2011-007",
+            "title": "Several Vulnerabilities in extension Direct Mail Subscription (direct_mail_subscription)",
+            "type": "extension",
+            "component": "direct_mail_subscription",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "direct_mail_subscription"
+                }
+            ],
+            "date": "2011-09-07T00:00:00+00:00",
+            "versions": [
+                "<=1.1.0"
+            ],
+            "vulnerabilities": null,
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-010",
+            "advisory": "TYPO3-EXT-SA-2011-010",
+            "title": "A vulnerability in extension Drag Drop Mass Upload (ameos_dragndropupload)",
+            "type": "extension",
+            "component": "ameos_dragndropupload",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "ameos_dragndropupload"
+                }
+            ],
+            "date": "2011-09-07T00:00:00+00:00",
+            "versions": [
+                "<=2.0.2"
+            ],
+            "vulnerabilities": null,
+            "severity": "critical",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-006",
+            "advisory": "TYPO3-EXT-SA-2011-006",
+            "title": "Several vulnerabilities in third party extensions",
+            "type": "extension",
+            "component": null,
+            "componentSubjects": null,
+            "date": "2011-08-29T00:00:00+00:00",
+            "versions": [
+                "<=0.0.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-005",
+            "advisory": "TYPO3-EXT-SA-2011-005",
+            "title": "Multiple XSS vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2011-08-26T00:00:00+00:00",
+            "versions": [
+                "<=4.11.3"
+            ],
+            "vulnerabilities": [
+                "Multiple Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-004",
+            "advisory": "TYPO3-EXT-SA-2011-004",
+            "title": "Cross Site Scripting Vulnerability in extension Questionaire (pbsurvey)",
+            "type": "extension",
+            "component": "pbsurvey",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "pbsurvey"
+                }
+            ],
+            "date": "2011-08-25T00:00:00+00:00",
+            "versions": [
+                "<=1.3.0"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:C/A:N/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-003",
+            "advisory": "TYPO3-EXT-SA-2011-003",
+            "title": "Several Vulnerabilities in extension Formhandler (formhandler)",
+            "type": "extension",
+            "component": "formhandler",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "formhandler"
+                }
+            ],
+            "date": "2011-08-25T00:00:00+00:00",
+            "versions": [
+                "<=0.9.14"
+            ],
+            "vulnerabilities": null,
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:C/A:P/E:U/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-002",
+            "advisory": "TYPO3-EXT-SA-2011-002",
+            "title": "Multiple SQL Injection vulnerabilities in extension \"Website Photo Gallery\" (jm_gallery) ",
+            "type": "extension",
+            "component": "jm_gallery",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "jm_gallery"
+                }
+            ],
+            "date": "2011-08-03T00:00:00+00:00",
+            "versions": [
+                "<=0.9.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:H/RL:O"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-001",
+            "advisory": "TYPO3-EXT-SA-2011-001",
+            "title": "Several vulnerabilities in extension phpMyAdmin (phpmyadmin)",
+            "type": "extension",
+            "component": "phpmyadmin",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "phpmyadmin"
+                }
+            ],
+            "date": "2011-07-25T00:00:00+00:00",
+            "versions": [
+                "<=4.11.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Local File Inclusion",
+                "Code Execution",
+                "Session Manipulation"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                }
+            ],
+            "cve": null,
+            "changes": []
+        }
+    ]
+}
