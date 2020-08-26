@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2020-08-26T19:07:39+02:00",
+        "date": "2020-08-26T19:37:58+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -49,7 +49,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "master",
                     "commit": "c166953edd1ee1156f7dec5f2dd89a4dc2067183",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c166953edd1ee1156f7dec5f2dd89a4dc2067183",
                     "date": "2020-07-28T10:20:25+02:00",
@@ -125,7 +125,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "master",
                     "commit": "b5b3956badf4dbe5b232c0bd46e994e73e73949d",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b5b3956badf4dbe5b232c0bd46e994e73e73949d",
                     "date": "2020-07-28T10:20:07+02:00",
@@ -213,7 +213,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "1b28fec3af40f085299af2a93adc38030365043c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1b28fec3af40f085299af2a93adc38030365043c",
                     "date": "2020-05-12T11:22:19+02:00",
@@ -312,7 +312,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "e4fb92a85bed8067d45d2c25c4b559642f206248",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e4fb92a85bed8067d45d2c25c4b559642f206248",
                     "date": "2020-05-12T11:22:12+02:00",
@@ -403,7 +403,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "ab4fec2a1aea46488e3dc2b9cca0712f3fa202b0",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/ab4fec2a1aea46488e3dc2b9cca0712f3fa202b0",
                     "date": "2020-05-12T11:22:06+02:00",
@@ -494,7 +494,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "0040b7b3b690118b3acbb12619d318386dec5a33",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0040b7b3b690118b3acbb12619d318386dec5a33",
                     "date": "2020-05-12T11:21:59+02:00",
@@ -555,7 +555,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "7339543a0f703221b5477c47dd2514c325b23d6b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7339543a0f703221b5477c47dd2514c325b23d6b",
                     "date": "2020-05-12T11:30:56+02:00",
@@ -609,7 +609,7 @@
             ],
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "14929b98ecda0ce67329b0f25ca7c01ee85df574",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/14929b98ecda0ce67329b0f25ca7c01ee85df574",
                     "date": "2020-05-12T11:21:43+02:00",
@@ -659,7 +659,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "fdf9cdade0da9acc970f1dd763ae23708c318293",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/fdf9cdade0da9acc970f1dd763ae23708c318293",
                     "date": "2019-12-17T10:53:27+01:00",
@@ -736,7 +736,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "948df21e45cf8beffa3d472e5c06f2f84833e432",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/948df21e45cf8beffa3d472e5c06f2f84833e432",
                     "date": "2019-12-17T10:53:19+01:00",
@@ -853,7 +853,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "0efda30ca4181898e17614a195b234954d353f2b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0efda30ca4181898e17614a195b234954d353f2b",
                     "date": "2019-12-17T10:53:12+01:00",
@@ -937,7 +937,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "51bbb9714c5d42b271e0e8dc583d8cdd1f2b7cfd",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/51bbb9714c5d42b271e0e8dc583d8cdd1f2b7cfd",
                     "date": "2019-12-17T10:53:02+01:00",
@@ -1022,7 +1022,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "21e9e6430586b66f425dd6f93a83f597ecd20b3c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/21e9e6430586b66f425dd6f93a83f597ecd20b3c",
                     "date": "2019-12-17T10:52:54+01:00",
@@ -1101,7 +1101,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.4",
                     "commit": "37ed78a1988af220eeb1933bf5a3137e4e7bbf4e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/37ed78a1988af220eeb1933bf5a3137e4e7bbf4e",
                     "date": "2019-12-17T10:52:45+01:00",
@@ -1187,7 +1187,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "647aa7afa582983cddc547fa106d31e2b1ef34fe",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/647aa7afa582983cddc547fa106d31e2b1ef34fe",
                     "date": "2019-06-25T08:42:30+02:00",
@@ -1286,7 +1286,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "75cc3d6bfedf70c2120ef8c6f6dd104e905c1569",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/75cc3d6bfedf70c2120ef8c6f6dd104e905c1569",
                     "date": "2019-06-25T08:42:16+02:00",
@@ -1368,7 +1368,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "3a48bb6c8a05aa861592c3fb81aa35dfa0939689",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3a48bb6c8a05aa861592c3fb81aa35dfa0939689",
                     "date": "2019-06-25T08:42:01+02:00",
@@ -1435,7 +1435,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "4bdd03fb053b7f714b962f849c4204c79936df85",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/4bdd03fb053b7f714b962f849c4204c79936df85",
                     "date": "2019-06-25T08:41:47+02:00",
@@ -1493,7 +1493,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "807b0e5de83a5c5d42a961fde629568aaa492887",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/807b0e5de83a5c5d42a961fde629568aaa492887",
                     "date": "2019-06-25T08:41:34+02:00",
@@ -1561,7 +1561,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "4c003f80b8b25def173268b8b069446c4fcc313a",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/4c003f80b8b25def173268b8b069446c4fcc313a",
                     "date": "2019-06-25T08:41:21+02:00",
@@ -1629,7 +1629,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "d593a69cce127af59d62d2c22184d491cd9f5408",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d593a69cce127af59d62d2c22184d491cd9f5408",
                     "date": "2019-06-25T08:41:08+02:00",
@@ -1746,7 +1746,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "3d048b3065ba0c902ddfe99356b45bdd1f8014b1",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3d048b3065ba0c902ddfe99356b45bdd1f8014b1",
                     "date": "2019-05-07T11:33:29+02:00",
@@ -1798,7 +1798,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "e845d90b82b2f72ab12a9e37f15082297832beca",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e845d90b82b2f72ab12a9e37f15082297832beca",
                     "date": "2019-05-07T11:45:00+02:00",
@@ -1873,7 +1873,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "f644cd72fe640fc90d90cd3c3aa140a2182e2529",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f644cd72fe640fc90d90cd3c3aa140a2182e2529",
                     "date": "2019-05-07T11:44:38+02:00",
@@ -1940,7 +1940,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "055bef5db25678218258ead8d3559741ee89ad51",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/055bef5db25678218258ead8d3559741ee89ad51",
                     "date": "2019-05-07T11:44:16+02:00",
@@ -1995,7 +1995,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "bba64ab96c3962b00f8a50d753e15810eecb382c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/bba64ab96c3962b00f8a50d753e15810eecb382c",
                     "date": "2019-05-07T11:43:54+02:00",
@@ -2051,7 +2051,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "a0cb44e635ceba3bfabd51b384536c717b26eaff",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a0cb44e635ceba3bfabd51b384536c717b26eaff",
                     "date": "2019-01-22T09:43:34+01:00",
@@ -2126,7 +2126,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "7b413d09143a5a678cb386cc943f862565dd54d8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7b413d09143a5a678cb386cc943f862565dd54d8",
                     "date": "2019-01-22T09:43:27+01:00",
@@ -2206,7 +2206,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "d80a3ad28ec29ccf27ab2533ce4af4f7ed6349dd",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d80a3ad28ec29ccf27ab2533ce4af4f7ed6349dd",
                     "date": "2019-01-22T09:43:19+01:00",
@@ -2274,7 +2274,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "18e154ec125d76720db0bce814e2a106d586f86b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/18e154ec125d76720db0bce814e2a106d586f86b",
                     "date": "2019-01-22T09:43:11+01:00",
@@ -2338,7 +2338,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "64cb2f8f5c7d4d8048785ddcd5cc6ff6b744809e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/64cb2f8f5c7d4d8048785ddcd5cc6ff6b744809e",
                     "date": "2019-01-22T09:43:03+01:00",
@@ -2440,7 +2440,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "f6e0f545401a1b039a54605dba2d7afa5a6477e2",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f6e0f545401a1b039a54605dba2d7afa5a6477e2",
                     "date": "2019-01-22T09:42:56+01:00",
@@ -2515,7 +2515,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "10.2",
                     "commit": "da6d0adf500cc933e01f4beda8db26669beaefb6",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/da6d0adf500cc933e01f4beda8db26669beaefb6",
                     "date": "2019-01-22T09:42:49+01:00",
@@ -2676,7 +2676,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "16567366e2a25c0cbed7208c3be9eda962e28c9b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/16567366e2a25c0cbed7208c3be9eda962e28c9b",
                     "date": "2018-12-11T10:57:33+01:00",
@@ -2742,7 +2742,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "232d0a64282382229c205904173a16a581555fe3",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/232d0a64282382229c205904173a16a581555fe3",
                     "date": "2018-12-11T10:57:26+01:00",
@@ -2808,7 +2808,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "13328b0f74ac589a20b021db814dfa672581c26a",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/13328b0f74ac589a20b021db814dfa672581c26a",
                     "date": "2018-12-11T10:57:20+01:00",
@@ -2884,7 +2884,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "1c85fe70269e2ff8ecf0b6d5f16550c6cd0ddc78",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1c85fe70269e2ff8ecf0b6d5f16550c6cd0ddc78",
                     "date": "2018-12-11T10:57:13+01:00",
@@ -2963,7 +2963,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "02cd5c97228cba477d16c68e28309ce25c433ce9",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/02cd5c97228cba477d16c68e28309ce25c433ce9",
                     "date": "2018-12-11T10:57:07+01:00",
@@ -3032,7 +3032,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "a32a9a746f807b14571139f0cb7caa00b8d037a5",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a32a9a746f807b14571139f0cb7caa00b8d037a5",
                     "date": "2018-12-11T10:57:00+01:00",
@@ -3109,7 +3109,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "6959fc7c9cca6ff559682df7ee25a64879de5048",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6959fc7c9cca6ff559682df7ee25a64879de5048",
                     "date": "2018-12-11T10:56:53+01:00",
@@ -3166,7 +3166,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "a6ce4ab05c802419de72d35059293b8ea4df639d",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a6ce4ab05c802419de72d35059293b8ea4df639d",
                     "date": "2018-07-12T11:36:48+02:00",
@@ -3251,7 +3251,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "8203657f7e72aecb0c34e8166314501781f2fb11",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/8203657f7e72aecb0c34e8166314501781f2fb11",
                     "date": "2018-07-12T11:36:31+02:00",
@@ -3261,7 +3261,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "f3445f96442000eeafba95ed7c6fda66efccb8da",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f3445f96442000eeafba95ed7c6fda66efccb8da",
                     "date": "2018-07-12T11:36:13+02:00",
@@ -3373,7 +3373,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "b6a04a1278e5336eaf0faca3268dbcb843a0ba7a",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b6a04a1278e5336eaf0faca3268dbcb843a0ba7a",
                     "date": "2018-07-12T11:35:55+02:00",
@@ -3382,7 +3382,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "421ef424220f16e1078719d49b1b210e78233772",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/421ef424220f16e1078719d49b1b210e78233772",
                     "date": "2018-07-12T11:35:41+02:00",
@@ -3391,7 +3391,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "b3b7d453a20e140a1d81d609ef4b9c61932238ab",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b3b7d453a20e140a1d81d609ef4b9c61932238ab",
                     "date": "2018-07-12T11:35:29+02:00",
@@ -3521,7 +3521,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.5",
                     "commit": "79260b2d9176096b33fd6ba97a255d9d8febbd30",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/79260b2d9176096b33fd6ba97a255d9d8febbd30",
                     "date": "2018-07-12T11:35:16+02:00",
@@ -3595,7 +3595,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.2",
                     "commit": "0100f1e8b1835cbebc1da86b63a9f2d0480daa60",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0100f1e8b1835cbebc1da86b63a9f2d0480daa60",
                     "date": "2017-09-05T11:37:46+02:00",
@@ -3670,7 +3670,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.2",
                     "commit": "1857c1986b66563ca579b5fd63cf66fad25c6a0f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1857c1986b66563ca579b5fd63cf66fad25c6a0f",
                     "date": "2017-09-05T11:37:24+02:00",
@@ -3738,7 +3738,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.2",
                     "commit": "c6498b2d4afdb6bf40521334a0c5a4f29366256f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c6498b2d4afdb6bf40521334a0c5a4f29366256f",
                     "date": "2017-09-05T11:37:35+02:00",
@@ -3802,7 +3802,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "9.2",
                     "commit": "fe31e60dcb9849c57d860d78430dfd1e723722d4",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/fe31e60dcb9849c57d860d78430dfd1e723722d4",
                     "date": "2017-09-05T11:37:18+02:00",
@@ -3878,7 +3878,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-7",
                     "commit": "f47b0c18b3bac7d601ca332cae632b807c284d62",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f47b0c18b3bac7d601ca332cae632b807c284d62",
                     "date": "2017-02-28T11:23:58+01:00",
@@ -3956,7 +3956,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-7",
                     "commit": "0197adbe9ff8b8fd84d5cadfcd64a7df95048029",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0197adbe9ff8b8fd84d5cadfcd64a7df95048029",
                     "date": "2017-02-28T11:23:30+01:00",
@@ -4042,7 +4042,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-5",
                     "commit": "e8d9c8d1eaf10f35b14554c7ddb0a5c05dd5c5d2",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e8d9c8d1eaf10f35b14554c7ddb0a5c05dd5c5d2",
                     "date": "2016-11-22T11:09:48+01:00",
@@ -4213,7 +4213,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-4",
                     "commit": "4a4bf359d7a6b2f6fc4deef2e1b69a84346dc57b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/4a4bf359d7a6b2f6fc4deef2e1b69a84346dc57b",
                     "date": "2016-09-13T11:53:18+02:00",
@@ -4300,7 +4300,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-4",
                     "commit": "2918d14e505c9f0043db7ee9c19311bd06a0ab08",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2918d14e505c9f0043db7ee9c19311bd06a0ab08",
                     "date": "2016-09-13T11:53:08+02:00",
@@ -4383,7 +4383,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "24108426d61b742b0d88d1452ecd089d19bd7f8f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/24108426d61b742b0d88d1452ecd089d19bd7f8f",
                     "date": "2016-07-06T10:18:58+02:00",
@@ -4433,7 +4433,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "9f92550933c576c400d0f1da67578c1d05f2d830",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/9f92550933c576c400d0f1da67578c1d05f2d830",
                     "date": "2016-07-19T10:50:36+02:00",
@@ -4481,7 +4481,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "d7f338b69bd74dde59e39d5d70360a44b8d7b7c4",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d7f338b69bd74dde59e39d5d70360a44b8d7b7c4",
                     "date": "2016-07-19T12:18:13+02:00",
@@ -4490,7 +4490,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "e4cfac074d09b2ac6304418a2491e222aadbae57",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e4cfac074d09b2ac6304418a2491e222aadbae57",
                     "date": "2016-07-19T12:17:29+02:00",
@@ -4602,7 +4602,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "93ce286759a7afe01dee53b69165ba8f0a674cf7",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/93ce286759a7afe01dee53b69165ba8f0a674cf7",
                     "date": "2016-07-19T12:18:02+02:00",
@@ -4755,7 +4755,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "9ba09a9f270bdb568f0ed57d1912820bd869f5a6",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/9ba09a9f270bdb568f0ed57d1912820bd869f5a6",
                     "date": "2016-07-19T12:17:53+02:00",
@@ -4857,7 +4857,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "7fc25564e4034c016705da6646ffaf65891453d8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7fc25564e4034c016705da6646ffaf65891453d8",
                     "date": "2016-07-19T12:17:45+02:00",
@@ -4866,7 +4866,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-3",
                     "commit": "bf04086ea2cfec322d329b9e52bf1cc569d3b5d6",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/bf04086ea2cfec322d329b9e52bf1cc569d3b5d6",
                     "date": "2016-07-19T12:17:36+02:00",
@@ -4982,7 +4982,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-2",
                     "commit": "f615301fd5ec86f5c2070c76d128bb266c8d72de",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f615301fd5ec86f5c2070c76d128bb266c8d72de",
                     "date": "2016-05-24T09:44:25+02:00",
@@ -5061,7 +5061,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-1",
                     "commit": "7e72fd0d3654c1604e594a822a1506f0d03c27e7",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7e72fd0d3654c1604e594a822a1506f0d03c27e7",
                     "date": "2016-04-12T11:11:30+02:00",
@@ -5156,7 +5156,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-1",
                     "commit": "5ab7fd5e7958bc198e0a4e39469bf7407c4db430",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5ab7fd5e7958bc198e0a4e39469bf7407c4db430",
                     "date": "2016-04-12T11:11:40+02:00",
@@ -5305,7 +5305,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-1",
                     "commit": "c5df0d116847646abfa824b18ac35c26d4a94c64",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c5df0d116847646abfa824b18ac35c26d4a94c64",
                     "date": "2016-04-12T11:11:18+02:00",
@@ -5314,7 +5314,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-1",
                     "commit": "edad889931feab888884cd070e819ebecd243a86",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/edad889931feab888884cd070e819ebecd243a86",
                     "date": "2016-04-12T11:11:10+02:00",
@@ -5417,7 +5417,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-0",
                     "commit": "3356e9b963fbe0843aa5553b1dd8118ae3595766",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3356e9b963fbe0843aa5553b1dd8118ae3595766",
                     "date": "2016-02-23T11:46:33+01:00",
@@ -5482,7 +5482,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-0",
                     "commit": "2c31fac7c7890d4dd2acfac42811bb205768540c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2c31fac7c7890d4dd2acfac42811bb205768540c",
                     "date": "2016-02-23T11:46:16+01:00",
@@ -5683,7 +5683,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_8-0",
                     "commit": "0103f48c86ca1a15a3c6326a0a913cb5395681d1",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0103f48c86ca1a15a3c6326a0a913cb5395681d1",
                     "date": "2016-02-23T11:46:04+01:00",
@@ -5969,7 +5969,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "3b36b051c00137cf525dc6ff7f0b2b0ea795167c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3b36b051c00137cf525dc6ff7f0b2b0ea795167c",
                     "date": "2015-12-15T11:38:57+01:00",
@@ -5978,7 +5978,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "57e482736e269c8d0e62dd8de66129d19fb644d8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/57e482736e269c8d0e62dd8de66129d19fb644d8",
                     "date": "2015-12-15T11:38:20+01:00",
@@ -5987,7 +5987,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "f0b204d64a02956c2f66173d1702cd44c54c0323",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f0b204d64a02956c2f66173d1702cd44c54c0323",
                     "date": "2015-12-15T11:38:04+01:00",
@@ -5996,7 +5996,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "f412d4980970497de35292905219f881f2119661",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f412d4980970497de35292905219f881f2119661",
                     "date": "2015-12-15T11:37:25+01:00",
@@ -6079,7 +6079,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "de1755a6dcff9b037c6d5a1fa340ba100aff054a",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/de1755a6dcff9b037c6d5a1fa340ba100aff054a",
                     "date": "2015-12-15T11:36:52+01:00",
@@ -6175,7 +6175,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "c252deb71a9190ecbad0fedf7793fa1fce78cc64",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c252deb71a9190ecbad0fedf7793fa1fce78cc64",
                     "date": "2015-12-15T11:38:37+01:00",
@@ -6184,7 +6184,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "88c884f356a42e4260fc86a96fe699ef3eefcc85",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/88c884f356a42e4260fc86a96fe699ef3eefcc85",
                     "date": "2015-12-15T11:37:44+01:00",
@@ -6193,7 +6193,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "abd1c460adea6d784fa006ed432561b1f42ea75e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/abd1c460adea6d784fa006ed432561b1f42ea75e",
                     "date": "2015-12-15T11:37:07+01:00",
@@ -6202,7 +6202,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "c9fab9f74ccc27c13d487972f644e1f2d5045e21",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c9fab9f74ccc27c13d487972f644e1f2d5045e21",
                     "date": "2015-12-15T11:36:35+01:00",
@@ -6288,7 +6288,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "43196544a521cb3c3a57ac3f7a8ac82d40ca8cd2",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/43196544a521cb3c3a57ac3f7a8ac82d40ca8cd2",
                     "date": "2015-12-15T11:36:19+01:00",
@@ -6356,7 +6356,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "daa52f2c147d05f56d84acf5e24bc10e2c719700",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/daa52f2c147d05f56d84acf5e24bc10e2c719700",
                     "date": "2015-09-08T10:58:15+02:00",
@@ -6490,7 +6490,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "d3c9706c827074adaefd8a79ecf5024fa4b9c756",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d3c9706c827074adaefd8a79ecf5024fa4b9c756",
                     "date": "2015-07-01T16:09:27+02:00",
@@ -6568,7 +6568,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "1757b4d7d138196612659d077fc06f2d5b06015b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1757b4d7d138196612659d077fc06f2d5b06015b",
                     "date": "2015-07-01T16:09:33+02:00",
@@ -6662,7 +6662,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "32d22760cc03ab1241c7ff72882da363a019d23f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/32d22760cc03ab1241c7ff72882da363a019d23f",
                     "date": "2015-07-01T16:09:46+02:00",
@@ -6671,7 +6671,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
                     "date": "2015-07-01T16:09:39+02:00",
@@ -6736,7 +6736,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "58380b4728f3a1a2bfb9c329963ecfe427652aad",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/58380b4728f3a1a2bfb9c329963ecfe427652aad",
                     "date": "2015-07-01T16:09:53+02:00",
@@ -6813,7 +6813,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
                     "date": "2015-07-01T16:09:58+02:00",
@@ -6877,7 +6877,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-6",
                     "commit": "d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
                     "date": "2015-07-01T16:11:15+02:00",
@@ -7008,7 +7008,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-3",
                     "commit": "4ac9bcdb9dc7b6d18ed4a61e74730b8edca9a2f8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/4ac9bcdb9dc7b6d18ed4a61e74730b8edca9a2f8",
                     "date": "2014-12-10T11:08:03+01:00",
@@ -7073,7 +7073,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_7-0",
                     "commit": "9268147b7158c1fbf8ae3c6ba5eb46b7a42516b4",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/9268147b7158c1fbf8ae3c6ba5eb46b7a42516b4",
                     "date": "2014-10-22T10:14:33+02:00",
@@ -7224,7 +7224,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "ab7a9f8515b9e5e69067b9c74679b69e3533b0d0",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/ab7a9f8515b9e5e69067b9c74679b69e3533b0d0",
                     "date": "2014-05-22T09:34:12+02:00",
@@ -7233,7 +7233,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "3858e46105bf0921d188d47f92b065579eba78f1",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3858e46105bf0921d188d47f92b065579eba78f1",
                     "date": "2014-05-22T09:34:07+02:00",
@@ -7242,7 +7242,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "6c6ae4b60079980c71250d9d4393b9ea1b1f2e31",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6c6ae4b60079980c71250d9d4393b9ea1b1f2e31",
                     "date": "2014-05-22T09:34:02+02:00",
@@ -7251,7 +7251,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "1e2843b4f3f275eea1ff79f7076ca7925e915e47",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1e2843b4f3f275eea1ff79f7076ca7925e915e47",
                     "date": "2014-05-22T09:33:57+02:00",
@@ -7260,7 +7260,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "938f7f845abedb8791499733a94542ed4c0609c8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/938f7f845abedb8791499733a94542ed4c0609c8",
                     "date": "2014-05-22T09:33:51+02:00",
@@ -7270,7 +7270,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "5ecbf2389336a780c9ba9343844cdb5409b9317a",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5ecbf2389336a780c9ba9343844cdb5409b9317a",
                     "date": "2014-05-22T09:33:46+02:00",
@@ -7279,7 +7279,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "d591b1d45e350fe1e467b1ffada91a4252314721",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d591b1d45e350fe1e467b1ffada91a4252314721",
                     "date": "2014-05-22T09:33:40+02:00",
@@ -7288,7 +7288,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "d554ac5323f3b0fac1fce4c2c491d0123badd669",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d554ac5323f3b0fac1fce4c2c491d0123badd669",
                     "date": "2014-05-22T09:33:36+02:00",
@@ -7627,7 +7627,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "107ac8e54431fe91b851de913cf5b58cd98dd348",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/107ac8e54431fe91b851de913cf5b58cd98dd348",
                     "date": "2013-12-10T10:55:19+01:00",
@@ -7636,7 +7636,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "226d624a9ec74d87ebf46a7add9d355a3128e645",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/226d624a9ec74d87ebf46a7add9d355a3128e645",
                     "date": "2013-12-10T10:55:14+01:00",
@@ -7645,7 +7645,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "fdd3d3f171234741bf66e734bee6a16a8c9388e1",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/fdd3d3f171234741bf66e734bee6a16a8c9388e1",
                     "date": "2013-12-10T10:55:08+01:00",
@@ -7654,7 +7654,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "f51afe2ffa058b795beb3107c5116885a4ed9501",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f51afe2ffa058b795beb3107c5116885a4ed9501",
                     "date": "2013-12-10T10:55:03+01:00",
@@ -7663,7 +7663,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "b4965e06d2c073f24d57decff90e7cd8183e801e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b4965e06d2c073f24d57decff90e7cd8183e801e",
                     "date": "2013-12-10T10:54:57+01:00",
@@ -7672,7 +7672,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "5f32f0a47174d8e5fb8e301c265d772be72b5c72",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5f32f0a47174d8e5fb8e301c265d772be72b5c72",
                     "date": "2013-12-10T10:54:52+01:00",
@@ -7681,7 +7681,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "5eae4a875b66c7dda6e53e75d34fe126b9ed55fd",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5eae4a875b66c7dda6e53e75d34fe126b9ed55fd",
                     "date": "2013-12-10T10:54:46+01:00",
@@ -7690,7 +7690,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "1b62669168fd2202c31fc22b68acc50fd7b5682f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/1b62669168fd2202c31fc22b68acc50fd7b5682f",
                     "date": "2013-12-10T10:54:38+01:00",
@@ -7699,7 +7699,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "db9563ca7096926b0731a5ae5648d3f2c15c9e79",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/db9563ca7096926b0731a5ae5648d3f2c15c9e79",
                     "date": "2013-12-10T10:54:33+01:00",
@@ -7708,7 +7708,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "4d44daa0e6d11b4f5fb2833feaf2e470136697e4",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/4d44daa0e6d11b4f5fb2833feaf2e470136697e4",
                     "date": "2013-12-10T10:54:28+01:00",
@@ -8126,7 +8126,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "cbed687fbb6dd16ea5363bc97efed970d552f88f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/cbed687fbb6dd16ea5363bc97efed970d552f88f",
                     "date": "2013-09-04T13:24:03+02:00",
@@ -8136,7 +8136,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "f48a1c1bf553814b8867a9fd3022a4b8f4db6a64",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/f48a1c1bf553814b8867a9fd3022a4b8f4db6a64",
                     "date": "2013-09-04T13:23:56+02:00",
@@ -8221,7 +8221,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "5d9b4e33039f95d08523d805bf5a95a94b1955ba",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5d9b4e33039f95d08523d805bf5a95a94b1955ba",
                     "date": "2013-09-04T13:14:20+02:00",
@@ -8230,7 +8230,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "a7e77220cb3bad1ae83bae415e3ee4d3eda3611b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a7e77220cb3bad1ae83bae415e3ee4d3eda3611b",
                     "date": "2013-09-04T13:14:12+02:00",
@@ -8239,7 +8239,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "3ebb905fdf5e0cd37c007989f21965dbe03b4267",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3ebb905fdf5e0cd37c007989f21965dbe03b4267",
                     "date": "2013-09-04T13:14:01+02:00",
@@ -8248,7 +8248,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "770b53e1231303e7c8df507f229cb8ac611e064b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/770b53e1231303e7c8df507f229cb8ac611e064b",
                     "date": "2013-09-04T13:13:52+02:00",
@@ -8332,7 +8332,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "60849b0450442f54774fdcc9944ff3590650151f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/60849b0450442f54774fdcc9944ff3590650151f",
                     "date": "2013-07-30T14:40:02+02:00",
@@ -8341,7 +8341,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "38935bffd48584dc026a44cefd13255c283ff91c",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/38935bffd48584dc026a44cefd13255c283ff91c",
                     "date": "2013-07-30T14:39:49+02:00",
@@ -8352,7 +8352,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-2",
                     "commit": "0dfeccc0fa3c97b5f9bb1471bb448b7db5c421f3",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0dfeccc0fa3c97b5f9bb1471bb448b7db5c421f3",
                     "date": "2013-07-30T14:39:37+02:00",
@@ -8492,7 +8492,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-1",
                     "commit": "17b357b3220b139a26fb61acb7dbd27bf6edd694",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/17b357b3220b139a26fb61acb7dbd27bf6edd694",
                     "date": "2013-03-06T11:49:34+01:00",
@@ -8501,7 +8501,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-1",
                     "commit": "62a17a28d9006d444c9cddb3c7dbc5589ad465bb",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/62a17a28d9006d444c9cddb3c7dbc5589ad465bb",
                     "date": "2013-03-06T11:49:27+01:00",
@@ -8614,7 +8614,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "a0ede7db1fb32e4c8f776a78714923b7cc8ee1ca",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a0ede7db1fb32e4c8f776a78714923b7cc8ee1ca",
                     "date": "2012-11-08T12:45:01+01:00",
@@ -8623,7 +8623,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "74c2aabf6811b105a5fcdfa20b282a55adeef60e",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/74c2aabf6811b105a5fcdfa20b282a55adeef60e",
                     "date": "2012-11-08T12:44:54+01:00",
@@ -8632,7 +8632,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "2bbc7a32f1866498c9991bff5ae8242111ad1f32",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2bbc7a32f1866498c9991bff5ae8242111ad1f32",
                     "date": "2012-11-08T12:44:48+01:00",
@@ -8756,7 +8756,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "5f0d3e4ecccc055adb87082b10371f448bfb8efd",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5f0d3e4ecccc055adb87082b10371f448bfb8efd",
                     "date": "2012-08-15T12:22:22+02:00",
@@ -8765,7 +8765,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "14f9a48ecb0c7bcfc12b5c98fbc68b5724250174",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/14f9a48ecb0c7bcfc12b5c98fbc68b5724250174",
                     "date": "2012-08-15T12:22:12+02:00",
@@ -8774,7 +8774,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "2518600207b4d627248a0f8bf2f1aae66f7a8b3f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2518600207b4d627248a0f8bf2f1aae66f7a8b3f",
                     "date": "2012-08-15T12:22:02+02:00",
@@ -8783,7 +8783,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "eb7eb17c663f75936ebf9d05c0e3d45fad925726",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/eb7eb17c663f75936ebf9d05c0e3d45fad925726",
                     "date": "2012-08-15T12:21:53+02:00",
@@ -8792,7 +8792,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "e922b56ef55f8fe7a8112a7dd2671dcd0b055372",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e922b56ef55f8fe7a8112a7dd2671dcd0b055372",
                     "date": "2012-08-15T12:21:43+02:00",
@@ -8801,7 +8801,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "b28a945ffe91c4336da84346f412e077586ea8df",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b28a945ffe91c4336da84346f412e077586ea8df",
                     "date": "2012-08-15T12:21:32+02:00",
@@ -8810,7 +8810,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "788d9c19930a3d8f638e54b2bdf0ba67ecd82fbf",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/788d9c19930a3d8f638e54b2bdf0ba67ecd82fbf",
                     "date": "2012-08-15T12:21:23+02:00",
@@ -8819,7 +8819,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "05d760ac56d7295b8f42c766c90d2f12d50dab37",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/05d760ac56d7295b8f42c766c90d2f12d50dab37",
                     "date": "2012-08-15T12:21:11+02:00",
@@ -8828,7 +8828,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "06c16f87b44b00e4a34f5c56003a4a3569f4d03b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/06c16f87b44b00e4a34f5c56003a4a3569f4d03b",
                     "date": "2012-08-15T12:21:01+02:00",
@@ -8837,7 +8837,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "51fe9e0fc3a15362c9fec9fdd68ca69d4ba3b5fc",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/51fe9e0fc3a15362c9fec9fdd68ca69d4ba3b5fc",
                     "date": "2012-08-15T12:20:51+02:00",
@@ -9158,7 +9158,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "efb55f381356b3802ec5c3a22ab6c46943e2e7d5",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/efb55f381356b3802ec5c3a22ab6c46943e2e7d5",
                     "date": "2012-07-04T11:12:50+02:00",
@@ -9230,7 +9230,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "8feb970ed8a56ffb8393851cb29c2e8285d8aea7",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/8feb970ed8a56ffb8393851cb29c2e8285d8aea7",
                     "date": "2012-04-17T11:11:03+02:00",
@@ -9315,7 +9315,7 @@
             "cwe": null,
             "changes": [
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "667a9c43d97485d72df089f57caa399899f44edd",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/667a9c43d97485d72df089f57caa399899f44edd",
                     "date": "2012-03-28T13:56:56+02:00",
@@ -9324,7 +9324,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "baef952ad0c4d3eac26a1311b2223863ec6c41fe",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/baef952ad0c4d3eac26a1311b2223863ec6c41fe",
                     "date": "2012-03-28T13:56:52+02:00",
@@ -9333,7 +9333,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "2c66a2e253f80f772b10bc7d1a899ed097c574ff",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2c66a2e253f80f772b10bc7d1a899ed097c574ff",
                     "date": "2012-03-28T13:56:48+02:00",
@@ -9342,7 +9342,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "e8502d83315ad11b3f153bc389087ca39494cfa1",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/e8502d83315ad11b3f153bc389087ca39494cfa1",
                     "date": "2012-03-28T13:56:42+02:00",
@@ -9351,7 +9351,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "064005b20296a2e919b284aed23d603b22d72b63",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/064005b20296a2e919b284aed23d603b22d72b63",
                     "date": "2012-03-28T13:56:37+02:00",
@@ -9360,7 +9360,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "b9e19bda10be24f26c09c779b2835973acc03a6f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b9e19bda10be24f26c09c779b2835973acc03a6f",
                     "date": "2012-03-28T13:56:29+02:00",
@@ -9369,7 +9369,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "27927a9a3c9245184b3a84553fb89813cc00b46b",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/27927a9a3c9245184b3a84553fb89813cc00b46b",
                     "date": "2012-03-28T13:56:25+02:00",
@@ -9378,7 +9378,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "0e25f86ebcffa12b59879b0613d93d91b90ec275",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0e25f86ebcffa12b59879b0613d93d91b90ec275",
                     "date": "2012-03-28T13:56:19+02:00",
@@ -9698,7 +9698,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "c34bf90785d2e0905afeca298f676216e076f66f",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c34bf90785d2e0905afeca298f676216e076f66f",
                     "date": "2012-03-28T13:40:46+02:00",
@@ -9725,7 +9725,7 @@
                     ]
                 },
                 {
-                    "branch": "lolli42-patch-1",
+                    "branch": "TYPO3_6-0",
                     "commit": "876f348f6cc79ff66bca2b91f83559e6bc2434e8",
                     "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/876f348f6cc79ff66bca2b91f83559e6bc2434e8",
                     "date": "2012-03-28T13:38:09+02:00",
