@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 extension security advisories",
-        "date": "2020-07-08T21:37:53+02:00",
+        "date": "2020-08-26T19:04:32+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -10,6 +10,65 @@
         ]
     },
     "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-015",
+            "advisory": "TYPO3-EXT-SA-2020-015",
+            "title": "Cross-Site Scripting in extension \"Kitodo.Presentation\" (dlf)",
+            "type": "extension",
+            "component": "dlf",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dlf"
+                }
+            ],
+            "date": "2020-07-29T00:00:00+00:00",
+            "versions": [
+                "<=3.1.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2020-16095"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-014",
+            "advisory": "TYPO3-EXT-SA-2020-014",
+            "title": "Sensitive Information Disclosure in extension \"Media Content Element\" (mediace)",
+            "type": "extension",
+            "component": "mediace",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mediace"
+                }
+            ],
+            "date": "2020-07-28T00:00:00+00:00",
+            "versions": [
+                "<=7.6.4"
+            ],
+            "vulnerabilities": [
+                "Sensitive Information Disclosure"
+            ],
+            "severity": "critical",
+            "scores": null,
+            "cve": [
+                "CVE-2020-15086"
+            ],
+            "cwe": [],
+            "changes": []
+        },
         {
             "url": "https://typo3.org/security/advisory/typo3-ext-sa-2020-013",
             "advisory": "TYPO3-EXT-SA-2020-013",
@@ -5189,7 +5248,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-002?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-002",
             "advisory": "TYPO3-EXT-SA-2012-002",
             "title": "Information disclosure vulnerabilities in extension \"Front End User Registration\" (sr_feuser_register)",
             "type": "extension",
@@ -5219,7 +5278,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-001?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2012-001",
             "advisory": "TYPO3-EXT-SA-2012-001",
             "title": "Several vulnerabilities in third party extensions",
             "type": "extension",
@@ -5244,7 +5303,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-018?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-018",
             "advisory": "TYPO3-EXT-SA-2011-018",
             "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
             "type": "extension",
@@ -5274,7 +5333,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-017?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-017",
             "advisory": "TYPO3-EXT-SA-2011-017",
             "title": "Authentication Bypass and Blind LDAP Injection in extension eu_ldap",
             "type": "extension",
@@ -5300,7 +5359,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-016?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-016",
             "advisory": "TYPO3-EXT-SA-2011-016",
             "title": "Remote Command Execution and Remote File Disclosure vulnerability in extension pdf_generator2",
             "type": "extension",
@@ -5326,7 +5385,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-015?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-015",
             "advisory": "TYPO3-EXT-SA-2011-015",
             "title": "Remote File Disclosure and Cross-Site Scripting vulnerability in extensions pmkshadowbox and pmkslimbox",
             "type": "extension",
@@ -5352,7 +5411,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-014?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-014",
             "advisory": "TYPO3-EXT-SA-2011-014",
             "title": "Multiple vulnerabilities in extension phpMyAdmin (phpmyadmin)",
             "type": "extension",
@@ -5383,7 +5442,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-012?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-012",
             "advisory": "TYPO3-EXT-SA-2011-012",
             "title": "Several vulnerabilities in third party extensions",
             "type": "extension",
@@ -5408,7 +5467,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-013?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-013",
             "advisory": "TYPO3-EXT-SA-2011-013",
             "title": "Cross-Site scripting vulnerability in extension t3blog (t3blog)",
             "type": "extension",
@@ -5438,7 +5497,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-011?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-011",
             "advisory": "TYPO3-EXT-SA-2011-011",
             "title": "Multiple XSS vulnerabilities in extension phpMyAdmin (phpmyadmin)",
             "type": "extension",
@@ -5468,7 +5527,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-009?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-009",
             "advisory": "TYPO3-EXT-SA-2011-009",
             "title": "Several Vulnerabilities in extension MailformPlus (th_mailformplus)",
             "type": "extension",
@@ -5496,7 +5555,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-008?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-008",
             "advisory": "TYPO3-EXT-SA-2011-008",
             "title": "Several Vulnerabilities in extension SmoothGallery for TYPO3 (rgsmoothgallery)",
             "type": "extension",
@@ -5524,7 +5583,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-007?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-007",
             "advisory": "TYPO3-EXT-SA-2011-007",
             "title": "Several Vulnerabilities in extension Direct Mail Subscription (direct_mail_subscription)",
             "type": "extension",
@@ -5552,7 +5611,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-010?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-010",
             "advisory": "TYPO3-EXT-SA-2011-010",
             "title": "A vulnerability in extension Drag Drop Mass Upload (ameos_dragndropupload)",
             "type": "extension",
@@ -5580,7 +5639,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-006?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-006",
             "advisory": "TYPO3-EXT-SA-2011-006",
             "title": "Several vulnerabilities in third party extensions",
             "type": "extension",
@@ -5605,7 +5664,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-005?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-005",
             "advisory": "TYPO3-EXT-SA-2011-005",
             "title": "Multiple XSS vulnerabilities in extension phpMyAdmin (phpmyadmin)",
             "type": "extension",
@@ -5635,7 +5694,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-004?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-004",
             "advisory": "TYPO3-EXT-SA-2011-004",
             "title": "Cross Site Scripting Vulnerability in extension Questionaire (pbsurvey)",
             "type": "extension",
@@ -5663,7 +5722,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-003?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-003",
             "advisory": "TYPO3-EXT-SA-2011-003",
             "title": "Several Vulnerabilities in extension Formhandler (formhandler)",
             "type": "extension",
@@ -5691,7 +5750,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-002?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-002",
             "advisory": "TYPO3-EXT-SA-2011-002",
             "title": "Multiple SQL Injection vulnerabilities in extension \"Website Photo Gallery\" (jm_gallery) ",
             "type": "extension",
@@ -5721,7 +5780,7 @@
             "changes": []
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-001?type=0/",
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2011-001",
             "advisory": "TYPO3-EXT-SA-2011-001",
             "title": "Several vulnerabilities in extension phpMyAdmin (phpmyadmin)",
             "type": "extension",
