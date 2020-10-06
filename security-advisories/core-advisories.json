@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2020-08-26T19:37:58+02:00",
+        "date": "2020-10-06T23:32:47+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -3624,6 +3624,71 @@
             ]
         },
         {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2017-006",
+            "advisory": "TYPO3-CORE-SA-2017-006",
+            "title": "Information Disclosure in TYPO3 CMS",
+            "type": "core",
+            "component": null,
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                }
+            ],
+            "date": "2017-09-05T00:00:00+00:00",
+            "versions": [
+                "7.6.0",
+                "8.0.0"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [],
+            "cwe": null,
+            "changes": [
+                {
+                    "branch": "9.2",
+                    "commit": "c6498b2d4afdb6bf40521334a0c5a4f29366256f",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c6498b2d4afdb6bf40521334a0c5a4f29366256f",
+                    "date": "2017-09-05T11:37:35+02:00",
+                    "paths": [
+                        "typo3/sysext/core"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_8-7",
+                    "commit": "2c6228c5ab06590a7e584e543f5b3b1887268577",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2c6228c5ab06590a7e584e543f5b3b1887268577",
+                    "date": "2017-09-05T11:37:03+02:00",
+                    "paths": [
+                        "typo3/sysext/core"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-6",
+                    "commit": "b979433972f49fdaeb3ce7e2cba3cda1fca93ab1",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b979433972f49fdaeb3ce7e2cba3cda1fca93ab1",
+                    "date": "2017-09-05T11:36:35+02:00",
+                    "paths": [
+                        "typo3/sysext/core"
+                    ]
+                }
+            ]
+        },
+        {
             "url": "https://typo3.org/security/advisory/typo3-core-sa-2017-005",
             "advisory": "TYPO3-CORE-SA-2017-005",
             "title": "Information Disclosure in TYPO3 CMS",
@@ -3696,71 +3761,6 @@
                     "date": "2017-09-05T11:36:30+02:00",
                     "paths": [
                         "typo3/sysext/backend",
-                        "typo3/sysext/core"
-                    ]
-                }
-            ]
-        },
-        {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2017-006",
-            "advisory": "TYPO3-CORE-SA-2017-006",
-            "title": "Information Disclosure in TYPO3 CMS",
-            "type": "core",
-            "component": null,
-            "componentSubjects": [
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-framework",
-                    "name": "typo3/cms-core"
-                }
-            ],
-            "date": "2017-09-05T00:00:00+00:00",
-            "versions": [
-                "7.6.0",
-                "8.0.0"
-            ],
-            "vulnerabilities": [
-                "Information Disclosure"
-            ],
-            "severity": "low",
-            "scores": [
-                {
-                    "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
-                }
-            ],
-            "cve": [],
-            "cwe": null,
-            "changes": [
-                {
-                    "branch": "9.2",
-                    "commit": "c6498b2d4afdb6bf40521334a0c5a4f29366256f",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c6498b2d4afdb6bf40521334a0c5a4f29366256f",
-                    "date": "2017-09-05T11:37:35+02:00",
-                    "paths": [
-                        "typo3/sysext/core"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_8-7",
-                    "commit": "2c6228c5ab06590a7e584e543f5b3b1887268577",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2c6228c5ab06590a7e584e543f5b3b1887268577",
-                    "date": "2017-09-05T11:37:03+02:00",
-                    "paths": [
-                        "typo3/sysext/core"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-6",
-                    "commit": "b979433972f49fdaeb3ce7e2cba3cda1fca93ab1",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/b979433972f49fdaeb3ce7e2cba3cda1fca93ab1",
-                    "date": "2017-09-05T11:36:35+02:00",
-                    "paths": [
                         "typo3/sysext/core"
                     ]
                 }
@@ -6424,9 +6424,73 @@
             ]
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-002",
-            "advisory": "TYPO3-CORE-SA-2015-002",
-            "title": "Access bypass when editing file metadata",
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-007",
+            "advisory": "TYPO3-CORE-SA-2015-007",
+            "title": "Cross-Site Scripting in 3rd party library Flowplayer",
+            "type": "core",
+            "component": "Backend",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-legacy",
+                    "name": "typo3/cms"
+                }
+            ],
+            "date": "2015-07-01T00:00:00+00:00",
+            "versions": [
+                "6.2.0",
+                "7.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [],
+            "cwe": null,
+            "changes": [
+                {
+                    "branch": "TYPO3_6-2",
+                    "commit": "8546772548f2ef442548d2ffb4d39445b2c08196",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/8546772548f2ef442548d2ffb4d39445b2c08196",
+                    "date": "2015-07-01T16:21:08+02:00",
+                    "paths": [
+                        "typo3",
+                        "typo3/sysext/css_styled_content",
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-3",
+                    "commit": "6130d6fdf33b8a218ae59002416d650df9cbac15",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6130d6fdf33b8a218ae59002416d650df9cbac15",
+                    "date": "2015-07-01T16:18:41+02:00",
+                    "paths": [
+                        "typo3/sysext/css_styled_content",
+                        "typo3/sysext/mediace"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-6",
+                    "commit": "d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
+                    "date": "2015-07-01T16:11:15+02:00",
+                    "paths": [
+                        "typo3/sysext/css_styled_content",
+                        "typo3/sysext/mediace"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-006",
+            "advisory": "TYPO3-CORE-SA-2015-006",
+            "title": "Brute Force Protection Bypass in backend login",
             "type": "core",
             "component": "Backend",
             "componentSubjects": [
@@ -6457,13 +6521,13 @@
                 "7.0.0"
             ],
             "vulnerabilities": [
-                "Broken Access Control"
+                "Brute Force Protection Bypass"
             ],
             "severity": "low",
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:O"
                 }
             ],
             "cve": [],
@@ -6471,9 +6535,9 @@
             "changes": [
                 {
                     "branch": "TYPO3_6-2",
-                    "commit": "bff9fa5945801d1d2c641ddc8eb86c6647549d80",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/bff9fa5945801d1d2c641ddc8eb86c6647549d80",
-                    "date": "2015-07-01T16:20:25+02:00",
+                    "commit": "0f3fb37674688aba5a44ca6f5df7f8a327a5b5f6",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0f3fb37674688aba5a44ca6f5df7f8a327a5b5f6",
+                    "date": "2015-07-01T16:23:08+02:00",
                     "paths": [
                         "typo3/sysext/backend",
                         "typo3/sysext/core"
@@ -6481,9 +6545,9 @@
                 },
                 {
                     "branch": "TYPO3_7-3",
-                    "commit": "0decbf83c531cab77497429eb2edecf9a1038b25",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0decbf83c531cab77497429eb2edecf9a1038b25",
-                    "date": "2015-07-01T16:16:33+02:00",
+                    "commit": "0b67290bbd941c07b0101bbfd6c7aadcbb93c75c",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0b67290bbd941c07b0101bbfd6c7aadcbb93c75c",
+                    "date": "2015-07-01T16:18:14+02:00",
                     "paths": [
                         "typo3/sysext/backend",
                         "typo3/sysext/core"
@@ -6491,11 +6555,178 @@
                 },
                 {
                     "branch": "TYPO3_7-6",
-                    "commit": "d3c9706c827074adaefd8a79ecf5024fa4b9c756",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d3c9706c827074adaefd8a79ecf5024fa4b9c756",
-                    "date": "2015-07-01T16:09:27+02:00",
+                    "commit": "3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
+                    "date": "2015-07-01T16:09:58+02:00",
                     "paths": [
                         "typo3/sysext/backend",
+                        "typo3/sysext/core"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-005",
+            "advisory": "TYPO3-CORE-SA-2015-005",
+            "title": "Information Disclosure possibility exploitable by Editors",
+            "type": "core",
+            "component": "Backend",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-filelist"
+                }
+            ],
+            "date": "2015-07-01T00:00:00+00:00",
+            "versions": [
+                "6.2.0",
+                "7.0.0"
+            ],
+            "vulnerabilities": [
+                "Information Disclosure"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [],
+            "cwe": null,
+            "changes": [
+                {
+                    "branch": "TYPO3_6-2",
+                    "commit": "2973b5746998c22d59e43594670f1e61670924de",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2973b5746998c22d59e43594670f1e61670924de",
+                    "date": "2015-07-01T16:23:06+02:00",
+                    "paths": [
+                        "typo3/sysext/filelist"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-3",
+                    "commit": "d9caccb26c954834e7d43fbbe84a3130cc95524a",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d9caccb26c954834e7d43fbbe84a3130cc95524a",
+                    "date": "2015-07-01T16:17:46+02:00",
+                    "paths": [
+                        "typo3/sysext/filelist"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-6",
+                    "commit": "58380b4728f3a1a2bfb9c329963ecfe427652aad",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/58380b4728f3a1a2bfb9c329963ecfe427652aad",
+                    "date": "2015-07-01T16:09:53+02:00",
+                    "paths": [
+                        "typo3/sysext/filelist"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-004",
+            "advisory": "TYPO3-CORE-SA-2015-004",
+            "title": "Cross-Site Scripting in Link Handling & File List",
+            "type": "core",
+            "component": "Link Handling (ext:frontend), Filelist Module (ext:filelist, ext:core)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-frontend"
+                }
+            ],
+            "date": "2015-07-01T00:00:00+00:00",
+            "versions": [
+                "6.2.0",
+                "7.0.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv2.0",
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [],
+            "cwe": null,
+            "changes": [
+                {
+                    "branch": "TYPO3_6-2",
+                    "commit": "9be2f6b1cc7339dfb7ae420ff57525f3336dd122",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/9be2f6b1cc7339dfb7ae420ff57525f3336dd122",
+                    "date": "2015-07-01T16:20:46+02:00",
+                    "paths": [
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_6-2",
+                    "commit": "7695d91fca1a96a3a3e7466097ae92c32b1130d8",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7695d91fca1a96a3a3e7466097ae92c32b1130d8",
+                    "date": "2015-07-01T16:20:41+02:00",
+                    "paths": [
+                        "typo3/sysext/core"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-3",
+                    "commit": "d7feb40c8d277c6b6ab3a548313be1e1a2084299",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d7feb40c8d277c6b6ab3a548313be1e1a2084299",
+                    "date": "2015-07-01T16:17:30+02:00",
+                    "paths": [
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-3",
+                    "commit": "128d2412537f3439774b1fde4e7d0fad06751f3d",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/128d2412537f3439774b1fde4e7d0fad06751f3d",
+                    "date": "2015-07-01T16:17:08+02:00",
+                    "paths": [
+                        "typo3/sysext/core"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-6",
+                    "commit": "32d22760cc03ab1241c7ff72882da363a019d23f",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/32d22760cc03ab1241c7ff72882da363a019d23f",
+                    "date": "2015-07-01T16:09:46+02:00",
+                    "paths": [
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "TYPO3_7-6",
+                    "commit": "6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
+                    "date": "2015-07-01T16:09:39+02:00",
+                    "paths": [
                         "typo3/sysext/core"
                     ]
                 }
@@ -6580,176 +6811,9 @@
             ]
         },
         {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-004",
-            "advisory": "TYPO3-CORE-SA-2015-004",
-            "title": "Cross-Site Scripting exploitable by Editors",
-            "type": "core",
-            "component": "Backend",
-            "componentSubjects": [
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-framework",
-                    "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-framework",
-                    "name": "typo3/cms-frontend"
-                }
-            ],
-            "date": "2015-07-01T00:00:00+00:00",
-            "versions": [
-                "6.2.0",
-                "7.0.0"
-            ],
-            "vulnerabilities": [
-                "Cross-Site Scripting"
-            ],
-            "severity": "low",
-            "scores": [
-                {
-                    "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
-                }
-            ],
-            "cve": [],
-            "cwe": null,
-            "changes": [
-                {
-                    "branch": "TYPO3_6-2",
-                    "commit": "9be2f6b1cc7339dfb7ae420ff57525f3336dd122",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/9be2f6b1cc7339dfb7ae420ff57525f3336dd122",
-                    "date": "2015-07-01T16:20:46+02:00",
-                    "paths": [
-                        "typo3/sysext/frontend"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_6-2",
-                    "commit": "7695d91fca1a96a3a3e7466097ae92c32b1130d8",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/7695d91fca1a96a3a3e7466097ae92c32b1130d8",
-                    "date": "2015-07-01T16:20:41+02:00",
-                    "paths": [
-                        "typo3/sysext/core"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-3",
-                    "commit": "d7feb40c8d277c6b6ab3a548313be1e1a2084299",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d7feb40c8d277c6b6ab3a548313be1e1a2084299",
-                    "date": "2015-07-01T16:17:30+02:00",
-                    "paths": [
-                        "typo3/sysext/frontend"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-3",
-                    "commit": "128d2412537f3439774b1fde4e7d0fad06751f3d",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/128d2412537f3439774b1fde4e7d0fad06751f3d",
-                    "date": "2015-07-01T16:17:08+02:00",
-                    "paths": [
-                        "typo3/sysext/core"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-6",
-                    "commit": "32d22760cc03ab1241c7ff72882da363a019d23f",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/32d22760cc03ab1241c7ff72882da363a019d23f",
-                    "date": "2015-07-01T16:09:46+02:00",
-                    "paths": [
-                        "typo3/sysext/frontend"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-6",
-                    "commit": "6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6fa4c8e3e196b8d50d0c65e4fd673cd0aded1bda",
-                    "date": "2015-07-01T16:09:39+02:00",
-                    "paths": [
-                        "typo3/sysext/core"
-                    ]
-                }
-            ]
-        },
-        {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-005",
-            "advisory": "TYPO3-CORE-SA-2015-005",
-            "title": "Information Disclosure possibility exploitable by Editors",
-            "type": "core",
-            "component": "Backend",
-            "componentSubjects": [
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-framework",
-                    "name": "typo3/cms-filelist"
-                }
-            ],
-            "date": "2015-07-01T00:00:00+00:00",
-            "versions": [
-                "6.2.0",
-                "7.0.0"
-            ],
-            "vulnerabilities": [
-                "Information Disclosure"
-            ],
-            "severity": "low",
-            "scores": [
-                {
-                    "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:O"
-                }
-            ],
-            "cve": [],
-            "cwe": null,
-            "changes": [
-                {
-                    "branch": "TYPO3_6-2",
-                    "commit": "2973b5746998c22d59e43594670f1e61670924de",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/2973b5746998c22d59e43594670f1e61670924de",
-                    "date": "2015-07-01T16:23:06+02:00",
-                    "paths": [
-                        "typo3/sysext/filelist"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-3",
-                    "commit": "d9caccb26c954834e7d43fbbe84a3130cc95524a",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d9caccb26c954834e7d43fbbe84a3130cc95524a",
-                    "date": "2015-07-01T16:17:46+02:00",
-                    "paths": [
-                        "typo3/sysext/filelist"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-6",
-                    "commit": "58380b4728f3a1a2bfb9c329963ecfe427652aad",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/58380b4728f3a1a2bfb9c329963ecfe427652aad",
-                    "date": "2015-07-01T16:09:53+02:00",
-                    "paths": [
-                        "typo3/sysext/filelist"
-                    ]
-                }
-            ]
-        },
-        {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-006",
-            "advisory": "TYPO3-CORE-SA-2015-006",
-            "title": "Brute Force Protection Bypass in backend login",
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-002",
+            "advisory": "TYPO3-CORE-SA-2015-002",
+            "title": "Access bypass when editing file metadata",
             "type": "core",
             "component": "Backend",
             "componentSubjects": [
@@ -6780,13 +6844,13 @@
                 "7.0.0"
             ],
             "vulnerabilities": [
-                "Brute Force Protection Bypass"
+                "Broken Access Control"
             ],
             "severity": "low",
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O"
                 }
             ],
             "cve": [],
@@ -6794,9 +6858,9 @@
             "changes": [
                 {
                     "branch": "TYPO3_6-2",
-                    "commit": "0f3fb37674688aba5a44ca6f5df7f8a327a5b5f6",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0f3fb37674688aba5a44ca6f5df7f8a327a5b5f6",
-                    "date": "2015-07-01T16:23:08+02:00",
+                    "commit": "bff9fa5945801d1d2c641ddc8eb86c6647549d80",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/bff9fa5945801d1d2c641ddc8eb86c6647549d80",
+                    "date": "2015-07-01T16:20:25+02:00",
                     "paths": [
                         "typo3/sysext/backend",
                         "typo3/sysext/core"
@@ -6804,9 +6868,9 @@
                 },
                 {
                     "branch": "TYPO3_7-3",
-                    "commit": "0b67290bbd941c07b0101bbfd6c7aadcbb93c75c",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0b67290bbd941c07b0101bbfd6c7aadcbb93c75c",
-                    "date": "2015-07-01T16:18:14+02:00",
+                    "commit": "0decbf83c531cab77497429eb2edecf9a1038b25",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0decbf83c531cab77497429eb2edecf9a1038b25",
+                    "date": "2015-07-01T16:16:33+02:00",
                     "paths": [
                         "typo3/sysext/backend",
                         "typo3/sysext/core"
@@ -6814,76 +6878,12 @@
                 },
                 {
                     "branch": "TYPO3_7-6",
-                    "commit": "3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3a22249edaae6a1cd6cc66d0d57a2aac46c5c658",
-                    "date": "2015-07-01T16:09:58+02:00",
+                    "commit": "d3c9706c827074adaefd8a79ecf5024fa4b9c756",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d3c9706c827074adaefd8a79ecf5024fa4b9c756",
+                    "date": "2015-07-01T16:09:27+02:00",
                     "paths": [
                         "typo3/sysext/backend",
                         "typo3/sysext/core"
-                    ]
-                }
-            ]
-        },
-        {
-            "url": "https://typo3.org/security/advisory/typo3-core-sa-2015-007",
-            "advisory": "TYPO3-CORE-SA-2015-007",
-            "title": "Cross-Site Scripting in 3rd party library Flowplayer",
-            "type": "core",
-            "component": "Backend",
-            "componentSubjects": [
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-legacy",
-                    "name": "typo3/cms"
-                }
-            ],
-            "date": "2015-07-01T00:00:00+00:00",
-            "versions": [
-                "6.2.0",
-                "7.0.0"
-            ],
-            "vulnerabilities": [
-                "Cross-Site Scripting"
-            ],
-            "severity": "low",
-            "scores": [
-                {
-                    "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
-                }
-            ],
-            "cve": [],
-            "cwe": null,
-            "changes": [
-                {
-                    "branch": "TYPO3_6-2",
-                    "commit": "8546772548f2ef442548d2ffb4d39445b2c08196",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/8546772548f2ef442548d2ffb4d39445b2c08196",
-                    "date": "2015-07-01T16:21:08+02:00",
-                    "paths": [
-                        "typo3",
-                        "typo3/sysext/css_styled_content",
-                        "typo3/sysext/frontend"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-3",
-                    "commit": "6130d6fdf33b8a218ae59002416d650df9cbac15",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6130d6fdf33b8a218ae59002416d650df9cbac15",
-                    "date": "2015-07-01T16:18:41+02:00",
-                    "paths": [
-                        "typo3/sysext/css_styled_content",
-                        "typo3/sysext/mediace"
-                    ]
-                },
-                {
-                    "branch": "TYPO3_7-6",
-                    "commit": "d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
-                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/d09e8ccdb2d4a8ad6488e39f869df6cbedd8536e",
-                    "date": "2015-07-01T16:11:15+02:00",
-                    "paths": [
-                        "typo3/sysext/css_styled_content",
-                        "typo3/sysext/mediace"
                     ]
                 }
             ]
