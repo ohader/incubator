@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2020-10-06T23:32:47+02:00",
+        "date": "2020-10-09T12:10:50+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -96,11 +96,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 }
@@ -175,18 +170,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -255,18 +240,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -275,18 +250,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-taskcenter"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -356,28 +321,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-extbase"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-extensionmanager"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -447,28 +397,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-fluid"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -792,18 +727,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-documentation"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -812,18 +737,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-install"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -993,11 +908,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 }
@@ -1157,11 +1067,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 }
@@ -1237,28 +1142,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -1337,11 +1227,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -1531,11 +1416,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 }
@@ -1676,28 +1556,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-fluid"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -1720,7 +1585,9 @@
                     "metrics": "AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
                 }
             ],
-            "cve": [],
+            "cve": [
+                "CVE-2020-15241"
+            ],
             "cwe": null,
             "changes": [
                 {
@@ -1842,11 +1709,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -2098,11 +1960,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-form"
                 }
@@ -2173,11 +2030,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-backend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -2487,11 +2339,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 }
@@ -2565,28 +2412,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-lang"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -2855,11 +2687,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 }
@@ -2931,11 +2758,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-backend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -3079,11 +2901,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-rte_ckeditor"
                 }
@@ -3159,7 +2976,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3213,18 +3030,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-form"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -3244,7 +3051,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3334,18 +3141,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -3366,7 +3163,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3514,7 +3311,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:H/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3588,7 +3385,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:C/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:C/I:C/A:C/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3653,7 +3450,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3707,11 +3504,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 }
@@ -3728,7 +3520,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3795,7 +3587,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -3840,18 +3632,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-fluid_styled_content"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -3926,11 +3708,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -4164,28 +3941,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-lang"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -4573,11 +4335,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-workspaces"
                 }
@@ -4716,18 +4473,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -4818,18 +4565,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-fluid"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -4950,11 +4687,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-extbase"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5117,18 +4849,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-saltedpasswords"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5266,18 +4988,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-recordlist"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5575,18 +5287,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5595,18 +5297,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-extensionmanager"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5615,18 +5307,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-form"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5635,28 +5317,13 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-recycler"
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-rtehtmlarea"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -5941,11 +5608,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-felogin"
                 }
@@ -6117,18 +5779,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-linkvalidator"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -6137,18 +5789,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-rtehtmlarea"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -6326,11 +5968,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 }
@@ -6347,7 +5984,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -6406,7 +6043,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6428,7 +6065,7 @@
             "advisory": "TYPO3-CORE-SA-2015-007",
             "title": "Cross-Site Scripting in 3rd party library Flowplayer",
             "type": "core",
-            "component": "Backend",
+            "component": "Frontend Media Rendering (ext:frontend, ext:mediace)",
             "componentSubjects": [
                 {
                     "repository": "composer",
@@ -6444,14 +6081,16 @@
             "vulnerabilities": [
                 "Cross-Site Scripting"
             ],
-            "severity": "low",
+            "severity": "medium",
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
-            "cve": [],
+            "cve": [
+                "CVE-2013-7341"
+            ],
             "cwe": null,
             "changes": [
                 {
@@ -6492,7 +6131,7 @@
             "advisory": "TYPO3-CORE-SA-2015-006",
             "title": "Brute Force Protection Bypass in backend login",
             "type": "core",
-            "component": "Backend",
+            "component": "Backend Login",
             "componentSubjects": [
                 {
                     "repository": "composer",
@@ -6503,11 +6142,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-backend"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -6527,7 +6161,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6570,7 +6204,7 @@
             "advisory": "TYPO3-CORE-SA-2015-005",
             "title": "Information Disclosure possibility exploitable by Editors",
             "type": "core",
-            "component": "Backend",
+            "component": "Filelist Module (ext:filelist, ext:core)",
             "componentSubjects": [
                 {
                     "repository": "composer",
@@ -6595,7 +6229,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6649,11 +6283,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-frontend"
                 }
@@ -6670,7 +6299,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6737,7 +6366,7 @@
             "advisory": "TYPO3-CORE-SA-2015-003",
             "title": "Frontend login Session Fixation",
             "type": "core",
-            "component": "Frontend Logon",
+            "component": "Frontend Login",
             "componentSubjects": [
                 {
                     "repository": "composer",
@@ -6748,11 +6377,6 @@
                     "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -6772,7 +6396,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6829,11 +6453,6 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-core"
                 }
@@ -6850,7 +6469,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -6893,7 +6512,7 @@
             "advisory": "TYPO3-CORE-SA-2015-001",
             "title": "Authentication Bypass in TYPO3 CMS 4.5",
             "type": "core",
-            "component": "rsaauth system extension",
+            "component": "RSA Authentication (ext:rsaauth)",
             "componentSubjects": [
                 {
                     "repository": "composer",
@@ -6907,18 +6526,8 @@
                 },
                 {
                     "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
-                },
-                {
-                    "repository": "composer",
                     "type": "typo3-cms-framework",
                     "name": "typo3/cms-saltedpasswords"
-                },
-                {
-                    "repository": "composer",
-                    "type": "typo3-cms-core",
-                    "name": "typo3/cms"
                 },
                 {
                     "repository": "composer",
@@ -6936,11 +6545,11 @@
             "vulnerabilities": [
                 "Authentication Bypass"
             ],
-            "severity": "critical",
+            "severity": "high",
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O/RC:C"
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -6991,7 +6600,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -7066,7 +6675,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:N"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:ND/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9149,7 +8758,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -9221,7 +8830,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -9306,7 +8915,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -9773,7 +9382,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9801,7 +9410,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:N/I:N/A:P/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:N/A:P/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9826,7 +9435,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9853,7 +9462,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9880,7 +9489,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -9909,7 +9518,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -9937,7 +9546,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:PO"
                 }
             ],
             "cve": null,

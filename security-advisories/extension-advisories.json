@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 extension security advisories",
-        "date": "2020-10-06T23:48:51+02:00",
+        "date": "2020-10-09T12:19:19+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -72,7 +72,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:C/E:P"
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:C/E:PO"
                 }
             ],
             "cve": [
@@ -104,7 +104,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -136,7 +136,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -167,7 +167,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:PO"
                 }
             ],
             "cve": [
@@ -202,7 +202,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -234,7 +234,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:S/C:C/I:C/A:P/E:N"
+                    "metrics": "AV:N/AC:H/Au:S/C:C/I:C/A:P/E:ND/RL:O/RC:C"
                 }
             ],
             "cve": [],
@@ -264,7 +264,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:H/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:P/A:N/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -297,7 +297,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:N"
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:ND/RL:O/RC:C"
                 }
             ],
             "cve": [],
@@ -331,7 +331,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:H/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": [
@@ -364,7 +364,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:PO"
                 }
             ],
             "cve": [
@@ -397,7 +397,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:ND/RL:O/RC:C"
                 }
             ],
             "cve": [],
@@ -428,7 +428,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:PO"
                 }
             ],
             "cve": [
@@ -736,7 +736,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:PO"
                 }
             ],
             "cve": [
@@ -769,7 +769,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1161,7 +1161,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:P/A:N/E:PO"
                 }
             ],
             "cve": [],
@@ -1549,7 +1549,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1575,7 +1575,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1605,7 +1605,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -1630,7 +1630,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1660,7 +1660,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -1686,7 +1686,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1712,7 +1712,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:P/E:F/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:P/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1769,7 +1769,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:H/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -1824,7 +1824,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:ND/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -1849,7 +1849,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:H/Au:N/C:C/I:N/A:N/E:P"
+                    "metrics": "AV:N/AC:H/Au:N/C:C/I:N/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -1877,7 +1877,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:N/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1905,7 +1905,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1933,7 +1933,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:P/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1961,7 +1961,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -1986,7 +1986,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2016,7 +2016,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:ND/RL:OF/RC:C"
                 }
             ],
             "cve": [],
@@ -2044,7 +2044,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:C/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:C/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2072,7 +2072,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:C/A:P/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:C/A:P/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2102,7 +2102,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:H/RL:O"
+                    "metrics": "AV:N/AC:L/Au:N/C:C/I:C/A:P/E:H/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2130,7 +2130,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:N/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2160,7 +2160,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:N/I:N/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:N/I:N/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2216,7 +2216,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:N/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:M/Au:N/C:N/I:P/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -2647,7 +2647,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:O"
+                    "metrics": "AV:N/AC:L/Au:S/C:P/I:N/A:N/E:U/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -2736,7 +2736,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:P/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -2857,7 +2857,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:P"
+                    "metrics": "AV:N/AC:L/Au:N/C:P/I:N/A:N/E:PO"
                 }
             ],
             "cve": null,
@@ -4451,7 +4451,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:ND/RL:O/RC:C"
                 }
             ],
             "cve": [],
@@ -4572,7 +4572,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:P/E:ND/RL:O/RC:C"
                 }
             ],
             "cve": [],
@@ -4782,7 +4782,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:N/C:P/I:N/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -4874,7 +4874,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:O"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:P/A:N/E:F/RL:OF/RC:C"
                 }
             ],
             "cve": null,
@@ -5875,7 +5875,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:N"
+                    "metrics": "AV:N/AC:M/Au:S/C:P/I:N/A:N/E:ND/RL:OF/RC:C"
                 }
             ],
             "cve": [],
