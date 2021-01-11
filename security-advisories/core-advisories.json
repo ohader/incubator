@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2020-10-09T12:10:50+02:00",
+        "date": "2021-01-08T13:40:25+00:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -10,6 +10,317 @@
         ]
     },
     "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2020-012",
+            "advisory": "TYPO3-CORE-SA-2020-012",
+            "title": "XML External Entity in Dashboard Widget",
+            "type": "core",
+            "component": "Dashboard (ext:dashboard)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-dashboard"
+                }
+            ],
+            "date": "2020-11-17T00:00:00+00:00",
+            "versions": [
+                ">=10.4.0 <=10.4.9"
+            ],
+            "vulnerabilities": [
+                "XML External Entity"
+            ],
+            "severity": "low",
+            "scores": null,
+            "cve": [
+                "CVE-2020-26229"
+            ],
+            "cwe": [
+                "CWE-611"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "c577de8bba7fb998cc911139599a7e34e530a781",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c577de8bba7fb998cc911139599a7e34e530a781",
+                    "date": "2020-11-17T09:52:12+01:00",
+                    "paths": [
+                        "typo3/sysext/dashboard"
+                    ]
+                },
+                {
+                    "branch": "10.4",
+                    "commit": "73a7a902eb8a61ef2f6b70891fbff6bc61b5d13f",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/73a7a902eb8a61ef2f6b70891fbff6bc61b5d13f",
+                    "date": "2020-11-17T09:51:21+01:00",
+                    "paths": [
+                        "typo3/sysext/dashboard"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2020-011",
+            "advisory": "TYPO3-CORE-SA-2020-011",
+            "title": "Cleartext storage of session identifier",
+            "type": "core",
+            "component": "Session Storage (ext:core)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-beuser"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-frontend"
+                }
+            ],
+            "date": "2020-11-17T00:00:00+00:00",
+            "versions": [
+                ">=10.0.0 <=10.4.9",
+                ">=9.0.0 <=9.5.22",
+                ">=8.7.0 <=8.7.37",
+                ">=7.6.0 <=7.6.47",
+                ">=6.2.0 <=6.2.53"
+            ],
+            "vulnerabilities": [
+                "Sensitive Data Exposure"
+            ],
+            "severity": "high",
+            "scores": null,
+            "cve": [
+                "CVE-2020-26228"
+            ],
+            "cwe": [
+                "CWE-312"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "139641412c4f251c825f2e297d17c84c76d7bddb",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/139641412c4f251c825f2e297d17c84c76d7bddb",
+                    "date": "2020-11-17T09:51:56+01:00",
+                    "paths": [
+                        "typo3/sysext/beuser",
+                        "typo3/sysext/core",
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "10.4",
+                    "commit": "0b96d4bda222f2ce39e858e1a4eb874a71e2b3d0",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0b96d4bda222f2ce39e858e1a4eb874a71e2b3d0",
+                    "date": "2020-11-17T09:51:11+01:00",
+                    "paths": [
+                        "typo3/sysext/beuser",
+                        "typo3/sysext/core",
+                        "typo3/sysext/frontend"
+                    ]
+                },
+                {
+                    "branch": "9.5",
+                    "commit": "dc26a4ac1a7a8f78f3556dbcd2140d51b046d593",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/dc26a4ac1a7a8f78f3556dbcd2140d51b046d593",
+                    "date": "2020-11-17T09:50:08+01:00",
+                    "paths": [
+                        "typo3/sysext/beuser",
+                        "typo3/sysext/core",
+                        "typo3/sysext/frontend"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2020-010",
+            "advisory": "TYPO3-CORE-SA-2020-010",
+            "title": "Cross-Site Scripting in Fluid view helpers",
+            "type": "core",
+            "component": "Fluid (ext:fluid)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-fluid"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-form"
+                }
+            ],
+            "date": "2020-11-17T00:00:00+00:00",
+            "versions": [
+                ">=10.0.0 <=10.4.9",
+                ">=9.0.0 <=9.5.22",
+                ">=8.7.0 <=8.7.37",
+                ">=7.6.0 <=7.6.47",
+                ">=6.2.0 <=6.2.53"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": null,
+            "cve": [
+                "CVE-2020-26227"
+            ],
+            "cwe": [
+                "CWE-79"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "6a972407b5d025322901d89d9f0318d69f2c29c8",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/6a972407b5d025322901d89d9f0318d69f2c29c8",
+                    "date": "2020-11-17T09:51:45+01:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/form"
+                    ]
+                },
+                {
+                    "branch": "10.4",
+                    "commit": "a69e1d653bc7c4244faf4ad9151c4afe037ad821",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/a69e1d653bc7c4244faf4ad9151c4afe037ad821",
+                    "date": "2020-11-17T09:51:00+01:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/form"
+                    ]
+                },
+                {
+                    "branch": "9.5",
+                    "commit": "0f6b7b799e55c526106c6d529c26482aac5a7b01",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0f6b7b799e55c526106c6d529c26482aac5a7b01",
+                    "date": "2020-11-17T09:49:54+01:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/form"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2020-009",
+            "advisory": "TYPO3-CORE-SA-2020-009",
+            "title": "Cross-Site Scripting through Fluid view helper arguments",
+            "type": "core",
+            "component": "Fluid Engine (package typo3fluid/fluid)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-adminpanel"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-fluid"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-redirects"
+                }
+            ],
+            "date": "2020-11-17T00:00:00+00:00",
+            "versions": [
+                ">=10.0.0 <=10.4.9",
+                ">=9.0.0 <=9.5.22",
+                ">=8.7.0 <=8.7.37",
+                ">=7.6.0 <=7.6.47",
+                ">=6.2.0 <=6.2.53"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": null,
+            "cve": [
+                "CVE-2020-26216"
+            ],
+            "cwe": [
+                "CWE-79"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "0228e3710147bb8df833d03d24e98b982eaf203b",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0228e3710147bb8df833d03d24e98b982eaf203b",
+                    "date": "2020-11-17T09:51:32+01:00",
+                    "paths": [
+                        "typo3/sysext/adminpanel",
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/redirects"
+                    ]
+                },
+                {
+                    "branch": "10.4",
+                    "commit": "0dd7ba3333c3bd4581c98305ebb2b28b02d6ac9b",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/0dd7ba3333c3bd4581c98305ebb2b28b02d6ac9b",
+                    "date": "2020-11-17T09:50:35+01:00",
+                    "paths": [
+                        "typo3/sysext/adminpanel",
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/redirects"
+                    ]
+                },
+                {
+                    "branch": "9.5",
+                    "commit": "c23113e1cf0a3f119c889eb48aa575dda32e8cd8",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/c23113e1cf0a3f119c889eb48aa575dda32e8cd8",
+                    "date": "2020-11-17T09:49:44+01:00",
+                    "paths": [
+                        "typo3/sysext/adminpanel",
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid",
+                        "typo3/sysext/redirects"
+                    ]
+                }
+            ]
+        },
         {
             "url": "https://typo3.org/security/advisory/typo3-core-sa-2020-008",
             "advisory": "TYPO3-CORE-SA-2020-008",
