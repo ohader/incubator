@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2021-03-30T15:14:51+00:00",
+        "date": "2021-06-21T16:16:40+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -40,7 +40,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21370"
             ],
@@ -113,7 +118,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21340"
             ],
@@ -181,7 +191,12 @@
                 "Sensitive Data Exposure"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21339"
             ],
@@ -255,7 +270,12 @@
                 "Denial of Service"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21359"
             ],
@@ -329,7 +349,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21358"
             ],
@@ -395,7 +420,12 @@
                 "Broken Access Control"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H/E:H/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21357"
             ],
@@ -477,7 +507,12 @@
                 "Unrestricted File Upload"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21355"
             ],
@@ -559,7 +594,12 @@
                 "Open Redirection"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-21338"
             ],
@@ -631,7 +671,12 @@
                 "XML External Entity"
             ],
             "severity": "low",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:L/E:U/RL:O/RC:R"
+                }
+            ],
             "cve": [
                 "CVE-2020-26229"
             ],
@@ -699,7 +744,12 @@
                 "Sensitive Data Exposure"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-26228"
             ],
@@ -782,7 +832,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-26227"
             ],
@@ -870,7 +925,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-26216"
             ],
@@ -943,7 +1003,12 @@
                 "Sensitive Information Disclosure"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-15098"
             ],
@@ -1016,7 +1081,12 @@
                 "Remote Code Execution"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-15099"
             ],
@@ -1094,7 +1164,12 @@
                 "Same-Origin Request Forgery"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11069"
             ],
@@ -1174,7 +1249,12 @@
                 "Insecure Deserialization"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11067"
             ],
@@ -1250,7 +1330,12 @@
                 "Insecure Deserialization"
             ],
             "severity": "high",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11066"
             ],
@@ -1326,7 +1411,12 @@
                 "Information Disclosure"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11065"
             ],
@@ -1387,7 +1477,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11064"
             ],
@@ -1441,7 +1536,12 @@
                 "Information Disclosure"
             ],
             "severity": "low",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-11063"
             ],
@@ -1665,7 +1765,7 @@
             "scores": [
                 {
                     "type": "CVSSv3.1",
-                    "metrics": "AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:L/IR:L/AR:L"
+                    "metrics": "AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:L/IR:L/AR:L/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X"
                 }
             ],
             "cve": [
@@ -2075,7 +2175,7 @@
             "scores": [
                 {
                     "type": "CVSSv3.0",
-                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:X/IR:X/AR:X"
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:H/MUI:X/MS:X/MC:X/MI:X/MA:X"
                 }
             ],
             "cve": [],
@@ -3882,7 +3982,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:OF/RC:C"
+                    "metrics": "AV:N/AC:M/Au:S/C:C/I:C/A:C/E:H/RL:OF/RC:C/CDP:ND/TD:L/CR:ND/IR:ND/AR:ND"
                 }
             ],
             "cve": [],
@@ -4217,7 +4317,7 @@
             "scores": [
                 {
                     "type": "CVSSv2.0",
-                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:H/RL:OF/RC:C"
+                    "metrics": "AV:N/AC:M/Au:N/C:C/I:C/A:C/E:H/RL:OF/RC:C/CDP:ND/TD:L/CR:ND/IR:ND/AR:ND"
                 }
             ],
             "cve": [],
