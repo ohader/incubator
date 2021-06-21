@@ -165,7 +165,12 @@
                 "Cross-Site Scripting"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-28380"
             ],
@@ -192,7 +197,12 @@
                 "Denial of Service"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [],
             "cwe": [],
             "changes": []
@@ -217,7 +227,12 @@
                 "SQL Injection"
             ],
             "severity": "medium",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2021-28381"
             ],
@@ -442,7 +457,12 @@
                 "Sensitive Information Disclosure"
             ],
             "severity": "critical",
-            "scores": null,
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
             "cve": [
                 "CVE-2020-15086"
             ],
