@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 core security advisories",
-        "date": "2021-07-30T16:07:29+02:00",
+        "date": "2021-10-26T20:08:41+02:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -10,6 +10,245 @@
         ]
     },
     "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2021-015",
+            "advisory": "TYPO3-CORE-SA-2021-015",
+            "title": "HTTP Host Header Injection in Request Handling",
+            "type": "core",
+            "component": "Request Handling (ext:core)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-backend"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-frontend"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-install"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-reports"
+                }
+            ],
+            "date": "2021-10-05T00:00:00+00:00",
+            "versions": [
+                ">=11.0.0 <=11.4.0"
+            ],
+            "vulnerabilities": [
+                "HTTP Header Injection"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-41114"
+            ],
+            "cwe": [
+                "CWE-20",
+                "CWE-644"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "5cbff85506cebe343e5ae59228977547cf8e3cf4",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5cbff85506cebe343e5ae59228977547cf8e3cf4",
+                    "date": "2021-10-05T13:02:47+02:00",
+                    "paths": [
+                        "typo3/sysext/backend",
+                        "typo3/sysext/core",
+                        "typo3/sysext/frontend",
+                        "typo3/sysext/install",
+                        "typo3/sysext/reports"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2021-014",
+            "advisory": "TYPO3-CORE-SA-2021-014",
+            "title": "Cross-Site-Request-Forgery in Backend URI Handling",
+            "type": "core",
+            "component": "Backend URI Handling (ext:backend)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-backend"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                }
+            ],
+            "date": "2021-10-05T00:00:00+00:00",
+            "versions": [
+                ">=11.2.0 <=11.4.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site-Request-Forgery"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-41113"
+            ],
+            "cwe": [
+                "CWE-352"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "fa51999203c5e5d913ecae5ea843ccb2b95fa33f",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/fa51999203c5e5d913ecae5ea843ccb2b95fa33f",
+                    "date": "2021-10-05T13:02:10+02:00",
+                    "paths": [
+                        "typo3/sysext/backend",
+                        "typo3/sysext/core"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-core-sa-2021-013",
+            "advisory": "TYPO3-CORE-SA-2021-013",
+            "title": "Cross-Site Scripting via Rich-Text Content",
+            "type": "core",
+            "component": "Content Rendering, HTML Parser (ext:frontend, ext:core)",
+            "componentSubjects": [
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-core",
+                    "name": "typo3/cms"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-core"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-fluid_styled_content"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-frontend"
+                },
+                {
+                    "repository": "composer",
+                    "type": "typo3-cms-framework",
+                    "name": "typo3/cms-rte_ckeditor"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                ">=7.0.0 <=7.6.52",
+                ">=8.0.0 <=8.7.41",
+                ">=9.0.0 <=9.5.28",
+                ">=10.0.0 <=10.4.18",
+                ">=11.0.0 <=11.3.1"
+            ],
+            "vulnerabilities": [
+                "Cross-Site-Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:F/RL:O"
+                }
+            ],
+            "cve": [
+                "CVE-2021-32768"
+            ],
+            "cwe": [
+                "CWE-79"
+            ],
+            "changes": [
+                {
+                    "branch": "master",
+                    "commit": "3dca584c701bc8ee062f20f19ac6e745c1f4a95a",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/3dca584c701bc8ee062f20f19ac6e745c1f4a95a",
+                    "date": "2021-08-10T09:51:13+02:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid_styled_content",
+                        "typo3/sysext/frontend",
+                        "typo3/sysext/rte_ckeditor"
+                    ]
+                },
+                {
+                    "branch": "11.3",
+                    "commit": "216250a38dbd070b4f2ea1e74ca7228d4d8b70e2",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/216250a38dbd070b4f2ea1e74ca7228d4d8b70e2",
+                    "date": "2021-08-10T09:51:01+02:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid_styled_content",
+                        "typo3/sysext/frontend",
+                        "typo3/sysext/rte_ckeditor"
+                    ]
+                },
+                {
+                    "branch": "10.4",
+                    "commit": "5a9f5927335338396898812ddf6b06a6802d8dec",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/5a9f5927335338396898812ddf6b06a6802d8dec",
+                    "date": "2021-08-10T09:50:53+02:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid_styled_content",
+                        "typo3/sysext/frontend",
+                        "typo3/sysext/rte_ckeditor"
+                    ]
+                },
+                {
+                    "branch": "9.5",
+                    "commit": "ac8f1fc3ac8c3e004e8730e0bd8144bd3209300f",
+                    "commitUri": "https://github.com/TYPO3/TYPO3.CMS/commit/ac8f1fc3ac8c3e004e8730e0bd8144bd3209300f",
+                    "date": "2021-08-10T09:50:44+02:00",
+                    "paths": [
+                        "typo3/sysext/core",
+                        "typo3/sysext/fluid_styled_content",
+                        "typo3/sysext/frontend",
+                        "typo3/sysext/rte_ckeditor"
+                    ]
+                }
+            ]
+        },
         {
             "url": "https://typo3.org/security/advisory/typo3-core-sa-2021-012",
             "advisory": "TYPO3-CORE-SA-2021-012",
