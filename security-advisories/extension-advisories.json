@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 extension security advisories",
-        "date": "2021-06-21T16:16:41+02:00",
+        "date": "2022-01-28T09:01:20+00:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -10,6 +10,368 @@
         ]
     },
     "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-018",
+            "advisory": "TYPO3-EXT-SA-2021-018",
+            "title": "Sensitive Data Exposure in extension \"Job Fair\" (jobfair)",
+            "type": "extension",
+            "component": "jobfair",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "jobfair"
+                }
+            ],
+            "date": "2021-11-10T00:00:00+00:00",
+            "versions": [
+                "<=1.0.12",
+                ">=2.0.0 <=2.0.1"
+            ],
+            "vulnerabilities": [
+                "Sensitive Data Exposure."
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-43564"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-017",
+            "advisory": "TYPO3-EXT-SA-2021-017",
+            "title": "Multiple vulnerabilities in extension \"pixx.io integration for TYPO3 (DAM)\" (pixxio)",
+            "type": "extension",
+            "component": "DAM",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "DAM"
+                }
+            ],
+            "date": "2021-11-10T00:00:00+00:00",
+            "versions": [
+                "<=1.0.4"
+            ],
+            "vulnerabilities": [
+                "Server-side request forgery",
+                "Remote Code Execution",
+                "Broken Access Control and vulnerable 3rd Party Components."
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-43562",
+                "CVE-2021-43563"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-016",
+            "advisory": "TYPO3-EXT-SA-2021-016",
+            "title": "Denial of Service in extension \"Code Highlight\" (codehighlight)",
+            "type": "extension",
+            "component": "codehighlight",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "codehighlight"
+                }
+            ],
+            "date": "2021-11-10T00:00:00+00:00",
+            "versions": [
+                "<=2.6.0"
+            ],
+            "vulnerabilities": [
+                "Denial of Service"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-015",
+            "advisory": "TYPO3-EXT-SA-2021-015",
+            "title": "Cross-Site Scripting in extension \"Google for Jobs\" (google_for_jobs)",
+            "type": "extension",
+            "component": "google_for_jobs",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "google_for_jobs"
+                }
+            ],
+            "date": "2021-11-10T00:00:00+00:00",
+            "versions": [
+                "<=1.5.0",
+                ">=2.0.0 <=2.1.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-43561"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-014",
+            "advisory": "TYPO3-EXT-SA-2021-014",
+            "title": "SQL Injection in extension \"Newsletter\" (newsletter)",
+            "type": "extension",
+            "component": "newsletter",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "newsletter"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=4.0.0"
+            ],
+            "vulnerabilities": [
+                "SQL Injection"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-38302"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-013",
+            "advisory": "TYPO3-EXT-SA-2021-013",
+            "title": "Multiple vulnerabilities in Extension \"Dated News\" (dated_news)",
+            "type": "extension",
+            "component": "dated_news",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dated_news"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=5.1.1"
+            ],
+            "vulnerabilities": [
+                "SQL Injection",
+                "Cross-Site Scripting",
+                "Information Disclosure and Broken Access Control"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:F/RL:U/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-36789",
+                "CVE-2021-36790",
+                "CVE-2021-36791",
+                "CVE-2021-36792"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-012",
+            "advisory": "TYPO3-EXT-SA-2021-012",
+            "title": "Cross Site Scripting in Extension \"Yoast SEO for TYPO3\" (yoast_seo)",
+            "type": "extension",
+            "component": "yoast_seo",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "yoast_seo"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=7.2.2"
+            ],
+            "vulnerabilities": [
+                "Cross Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-36788"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-011",
+            "advisory": "TYPO3-EXT-SA-2021-011",
+            "title": "Multiple vulnerabilities in Extension \"Miniorange Saml\" (miniorange_saml)",
+            "type": "extension",
+            "component": "miniorange_saml",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "miniorange_saml"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=1.4.2"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting",
+                "Sensitive Data Exposure",
+                "Vulnerable 3rd Party component"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-36785",
+                "CVE-2021-36786"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-010",
+            "advisory": "TYPO3-EXT-SA-2021-010",
+            "title": "Cross-Site Scripting in Extension \"femanager\" (femanager)",
+            "type": "extension",
+            "component": "femanager",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "femanager"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                ">=6.0.0 <=6.3.0",
+                "<=5.5.0"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-36787"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-009",
+            "advisory": "TYPO3-EXT-SA-2021-009",
+            "title": "Denial of Service in Extension \"Deferred image processing\" (deferred_image_processing)",
+            "type": "extension",
+            "component": "deferred_image_processing",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "deferred_image_processing"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=1.0.1"
+            ],
+            "vulnerabilities": [
+                "Denial of Service"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-008",
+            "advisory": "TYPO3-EXT-SA-2021-008",
+            "title": "Sensitive Information Disclosure in \u00e2\u0080\u009cExtbase Yaml Routes\u00e2\u0080\u009d (routes)",
+            "type": "extension",
+            "component": "routes",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "routes"
+                }
+            ],
+            "date": "2021-08-10T00:00:00+00:00",
+            "versions": [
+                "<=2.1.0"
+            ],
+            "vulnerabilities": [
+                "Sensitive Information Disclosure"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-36793"
+            ],
+            "cwe": [],
+            "changes": []
+        },
         {
             "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-007",
             "advisory": "TYPO3-EXT-SA-2021-007",
