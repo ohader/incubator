@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "TYPO3 extension security advisories",
-        "date": "2022-01-28T09:01:20+00:00",
+        "date": "2022-02-15T13:35:46+01:00",
         "maintainers": [
             {
                 "name": "Oliver Hader",
@@ -10,6 +10,134 @@
         ]
     },
     "advisories": [
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2022-004",
+            "advisory": "TYPO3-EXT-SA-2022-004",
+            "title": "File Content Injection in extension \"Hardcoded text to Locallang\" (mqk_locallangtools)",
+            "type": "extension",
+            "component": "mqk_locallangtools",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "mqk_locallangtools"
+                }
+            ],
+            "date": "2022-02-15T00:00:00+00:00",
+            "versions": [
+                "<=1.0.4"
+            ],
+            "vulnerabilities": [
+                "File Content Injection"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2022-003",
+            "advisory": "TYPO3-EXT-SA-2022-003",
+            "title": "Insecure direct object reference in extension \"Varnishcache\" (varnishcache)",
+            "type": "extension",
+            "component": "varnishcache",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "varnishcache"
+                }
+            ],
+            "date": "2022-02-15T00:00:00+00:00",
+            "versions": [
+                "<=2.0.0"
+            ],
+            "vulnerabilities": [
+                "Insecure direct object reference"
+            ],
+            "severity": "medium",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2022-24979"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2022-002",
+            "advisory": "TYPO3-EXT-SA-2022-002",
+            "title": "Cross-Site Scripting in extension \"Bookdatabase\" (extbookdatabase)",
+            "type": "extension",
+            "component": "extbookdatabase",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "extbookdatabase"
+                }
+            ],
+            "date": "2022-02-15T00:00:00+00:00",
+            "versions": [
+                "<=0.1.5"
+            ],
+            "vulnerabilities": [
+                "Cross-Site Scripting"
+            ],
+            "severity": "low",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N/E:F/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2021-23445"
+            ],
+            "cwe": [],
+            "changes": []
+        },
+        {
+            "url": "https://typo3.org/security/advisory/typo3-ext-sa-2022-001",
+            "advisory": "TYPO3-EXT-SA-2022-001",
+            "title": "Server-side request forgery in extension \"Kitodo.Presentation\" (dlf)",
+            "type": "extension",
+            "component": "dlf",
+            "componentSubjects": [
+                {
+                    "repository": "extension",
+                    "name": "dlf"
+                }
+            ],
+            "date": "2022-02-15T00:00:00+00:00",
+            "versions": [
+                ">=3.3.0 <=3.3.3",
+                ">=3.0.0 <=3.2.2",
+                "<=2.3.1"
+            ],
+            "vulnerabilities": [
+                "Server-side request forgery"
+            ],
+            "severity": "high",
+            "scores": [
+                {
+                    "type": "CVSSv3.1",
+                    "metrics": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:P/RL:O/RC:C"
+                }
+            ],
+            "cve": [
+                "CVE-2022-24980"
+            ],
+            "cwe": [],
+            "changes": []
+        },
         {
             "url": "https://typo3.org/security/advisory/typo3-ext-sa-2021-018",
             "advisory": "TYPO3-EXT-SA-2021-018",
